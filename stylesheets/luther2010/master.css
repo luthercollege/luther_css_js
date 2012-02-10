@@ -1992,6 +1992,53 @@ body.dada .content-primary img {
 }
 /* \\\ Emergency message /// */
 
+/* /// Feature/feature \\\ */
+.content-tertiary .featuresModule li.feature {
+ width: 222px;
+ height: 148px;
+ border-right: 7px solid #95B3CD;
+ margin: -36px 0 8px 0;
+ margin: 54px 0 8px 0;
+ margin: 8px 0 8px 0;
+}
+.content-tertiary .featuresModule li.feature img {
+ width:100%;
+ height: auto;
+}
+.content-tertiary .featuresModule .feature .featureInfo h3.featureTitle {
+ font-size: 1.0em;
+ font-weight: bold;
+ color:#eeeeee;
+ line-height:1;
+}
+.content-tertiary .featuresModule .feature .featureInfo .featureText {
+ font-size: 0.94em;
+ color:#cccccc;
+ line-height:0.8;
+}
+:root * > .content-tertiary .featuresModule .feature .featureInfo, * html .featuresModule .feature .featureInfo {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-image: none;
+}
+.content-tertiary .featuresModule .feature .featureTitle a.dest, .featuresModule .feature .featureTitle a.anchor, .featuresModule .feature .featureTitle span.noLink, .featuresModule .feature .featureText a.dest, .featuresModule .feature .featureText a.anchor, .featuresModule .feature .featureText span.noLink {
+    display: block;
+    padding: 3px 3px 0 !important;
+}
+.content-tertiary .featuresModule .feature .featureInfo .featureNav {
+ line-height:0.5;
+ padding: 0.15em 0.15em 0.35em 0;
+}
+.content-tertiary .featuresModule .feature .featureInfo .featureNav a {
+ font-size: 0.90em;
+ color:#aaaaaa;
+ letter-spacing: -1px;
+}
+.content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock {
+ display: none;
+}
+
+/* \\\ Feature/feature /// */
+
 /* /// Cluetip athlete tooltip \\\ */
 p.athlete_position_event,
 p.athlete_class_year, 
