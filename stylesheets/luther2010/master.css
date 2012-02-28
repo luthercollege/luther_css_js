@@ -1798,8 +1798,7 @@ footer.site-info {
   margin:0;
 }
 .content section.events nav.button hr,
-.content-tertiary #preSidebar hr,
-.content-tertiary #sidebar hr,
+.content-tertiary hr,
 #av hr {
   height: 0;
 }
