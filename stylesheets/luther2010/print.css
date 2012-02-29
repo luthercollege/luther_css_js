@@ -1,0 +1,221 @@
+@import url("/reason/css/modules.css");
+@import url("/javascripts/highslide/highslide.css");
+@import url("/javascripts/cluetip/jquery.cluetip.css");
+@import url("/stylesheets/luther2010/master.css");
+@import url("/stylesheets/luther2010/reason.css");
+
+/* Hack header */
+#bannerXtra {
+ border-top:90px solid #0A2345 !important;
+ margin-bottom:9px !important;
+}
+header.global {
+ width:auto !important;
+}
+header.global {
+ background:none !important;
+ margin-top:-90px !important;
+}
+/* Remove navigation */
+#nav-search,
+#nav-audience,
+#nav-content {
+ display:none !important;
+}
+/* Remove navigation */
+/* Hack header */
+
+/* Unset margins and widths and floats */
+html,
+body {
+ background:#fff !important;
+ width:auto !important;
+}
+
+.container {
+ width:auto !important;
+}
+.content {
+ float:none !important;
+ float:right !important;
+}
+.content-secondary {
+ width:auto !important;
+}
+#section-sign {
+ margin:0 0 0 7px !important;
+ width:227px !important;
+}
+#nav-section {
+ margin:0 0 0 7px !important;
+ width:218px !important;
+}
+.content-primary {
+ width:auto !important;
+}
+nav#breadcrumbs {
+ width:auto !important;
+}
+.content-tertiary {
+ width:auto !important;
+}
+footer.site-info {
+ width:auto !important;
+}
+/* Unset margins and widths and float */
+
+/* Negative Margin Layout */
+.container {
+ float:right !important;
+ margin-left:-241px !important;
+ width:100% !important;
+}
+#content .content {
+ float:none !important;
+}
+#related .content {
+ float:none !important;
+}
+/* Negative Margin Layout */
+
+#home.style-home-00 .container,
+#home.style-home-00 #related {
+ margin-left:0px !important;
+}
+#home.style-home-00 #navigation {
+ display:none !important;
+}
+#home .container-events-news-and-spotlight {
+ background:none !important;
+ float:none !important;
+ margin: 0 0 0.75em !important;
+ width:100% !important;
+}
+#home .container-events-news-and-spotlight section.events,
+#home .container-events-news-and-spotlight section.news {
+ float:left !important;
+ width:49% !important;
+}
+body.spotlight-archive #content {
+ margin-right:223px !important;
+}
+body.spotlight-archive .content-tertiary {
+ position:absolute !important;
+ right:0 !important; 
+ top:1.5em !important; 
+}
+
+
+div.back {
+ display:none;
+}
+
+#navigation {
+ float:left !important;
+ width:241px !important;
+}
+#content,
+#related {
+ margin-left:241px !important;
+}
+
+ul.childrenList {
+ clear:none !important;
+}
+
+// Float content right to help with .groups that clear the navigation?
+// Problem https://www.luther.edu/giving/givenow/?_step=GiftPageOneForm
+/* Remove Items */
+/* #navigation aside, */
+#navigation .subscribe {
+ display:none !important;
+}
+/*
+#navigation .contact-information form {
+ display:none !important;
+}
+#navigation .contact-information h2 + form {
+ display:none !important;
+}
+*/
+
+#navigation aside {
+ display:none !important;
+}
+.contact-information {
+ margin: 1.5em 12px 0 26px !important;
+}
+aside#carousel {
+ display:none !important;
+}
+aside.banners {
+ display:none !important;
+}
+#related .spotlight,
+#related aside.news,
+#related .events header.blue-stripe,
+#related .content-tertiary .events #calendar, 
+#related .content-tertiary .events .calendarGrid,
+#related #av,
+#related nav.button,
+#related nav.view-all {
+ display:none !important;
+}
+
+#content .gridAndOptions .calendarGrid, 
+#content .events .calendarGrid,
+#related nav.button,
+#related nav.view-all {
+ display:none !important;
+}
+
+#related .content-tertiary .events #calendar + header.blue-stripe, 
+#related .content-tertiary .events .calendarGrid + header.blue-stripe {
+ display:block !important;
+}
+.addthis_default_style,
+.at300m,
+.addthis_toolbox {
+ display:none !important;
+}
+
+
+.events .vevent time.dtstart {
+ border-top:1.5em solid #AA1111 !important;
+ border-bottom:2.25em solid #E3ECF6 !important; 
+ position:relative !important; 
+ top:-0.25em !important; 
+}
+.events .vevent time.dtstart span {
+ background:none !important; 
+ position:absolute !important; 
+ text-align:center !important; 
+ top:-1.50em !important; 
+ width:3.75em !important; 
+}
+
+.events .vevent time.dtstart .day {
+ background:none !important; 
+ position:absolute !important; 
+ text-align:center !important; 
+ top:-0 !important; 
+ width:3.75em !important; 
+}
+
+.spotlight article figure {
+ left: auto !important; 
+ right:0 !important; 
+}
+#meat #content .publication ul.posts li.post h4.title, 
+#meat #content .publication ul.posts li.post .desc, 
+#meat #content .relatedPub ul.posts li.post h4, 
+#meat #content .relatedPub ul.posts li.post .desc, 
+#meat #content .childrenListWithImages h4, 
+#meat #content .childrenListWithImages .childDesc {
+ float:none !important; 
+}
+
+/* Fix Faculty/Staff listing from clearing left hand navigation */
+.facStaff {
+ clear:right;
+}
