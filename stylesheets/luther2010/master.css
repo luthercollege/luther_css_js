@@ -1992,6 +1992,9 @@ body.dada .content-primary img {
 /* \\\ Emergency message /// */
 
 /* /// Feature/feature \\\ */
+.style-home-01 .featuresModule {
+ overflow: hidden;
+}
 .content-tertiary .featuresModule li.feature {
  width: 222px;
  height: 148px;
@@ -2000,9 +2003,17 @@ body.dada .content-primary img {
  margin: 54px 0 8px 0;
  margin: 8px 0 8px 0;
 }
-.content-tertiary .featuresModule li.feature img {
+.featuresModule li.feature img {
  width:100%;
  height: auto;
+}
+.style-home-01 .featuresModule .feature .featureInfo h3.featureTitle {
+ width: 97%; 
+ font-size: 1.3em;
+ font-weight: bold;
+ color:#eeeeee;
+ line-height:1.1;
+ padding: 3px 0 0 0;
 }
 .content-tertiary .featuresModule .feature .featureInfo h3.featureTitle {
  font-size: 1.0em;
@@ -2010,29 +2021,62 @@ body.dada .content-primary img {
  color:#eeeeee;
  line-height:1;
 }
+.style-home-01 .featuresModule .feature .featureInfo .featureText {
+ width: 97%;
+ font-size: 1.1em;
+ color:#cccccc;
+ line-height: 0.7;
+ padding: 0 0 4px 0;
+}
 .content-tertiary .featuresModule .feature .featureInfo .featureText {
  font-size: 0.94em;
  color:#cccccc;
  line-height:0.8;
 }
-:root * > .content-tertiary .featuresModule .feature .featureInfo, * html .featuresModule .feature .featureInfo {
+:root * > .featuresModule .feature .featureInfo, * html .featuresModule .feature .featureInfo {
     background-color: rgba(0, 0, 0, 0.5) !important;
     background-image: none;
 }
-.content-tertiary .featuresModule .feature .featureTitle a.dest, .featuresModule .feature .featureTitle a.anchor, .featuresModule .feature .featureTitle span.noLink, .featuresModule .feature .featureText a.dest, .featuresModule .feature .featureText a.anchor, .featuresModule .feature .featureText span.noLink {
+.style-home-01 .featuresModule .feature .featureTitle a.dest,
+.style-home-01 .featuresModule .feature .featureTitle a.anchor,
+.style-home-01 .featuresModule .feature .featureTitle span.noLink,
+.style-home-01 .featuresModule .feature .featureText a.dest,
+.style-home-01 .featuresModule .feature .featureText a.anchor,
+.style-home-01 .featuresModule .feature .featureText span.noLink {
+    display: block;
+    padding: 1px 3px 0 4px !important;
+}
+.content-tertiary .featuresModule .feature .featureTitle a.dest,
+.content-tertiary .featuresModule .feature .featureTitle a.anchor,
+.content-tertiary .featuresModule .feature .featureTitle span.noLink,
+.content-tertiary .featuresModule .feature .featureText a.dest,
+.content-tertiary .featuresModule .feature .featureText a.anchor,
+.content-tertiary .featuresModule .feature .featureText span.noLink {
     display: block;
     padding: 3px 3px 0 !important;
+}
+.style-home-01 .feature .featureInfo .featureNav {
+ position: absolute;
+ line-height:0.5;
+ padding: 0.15em 0.15em 0.35em 0;
+ right: 0px;
+ bottom: 2px;
 }
 .content-tertiary .featuresModule .feature .featureInfo .featureNav {
  line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
+}
+.style-home-01 .featuresModule .feature .featureInfo .featureNav a {
+ font-size: 1.2em;
+ color:#aaaaaa;
+ letter-spacing: -1px;
 }
 .content-tertiary .featuresModule .feature .featureInfo .featureNav a {
  font-size: 0.90em;
  color:#aaaaaa;
  letter-spacing: -1px;
 }
-.content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock {
+.featuresModule .feature .featureInfo .featureNav .navBlock {
  display: none;
 }
 
