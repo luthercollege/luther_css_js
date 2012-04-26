@@ -1160,6 +1160,7 @@ div#calendar div.views ul li a:focus {
 .content-tertiary .events #calendar,
 .content-tertiary .events .calendarGrid {
  float:none; 
+ margin: 0 0 12px 0;
 }
 div#calendar div.gridAndOptions div.calendarGrid {
  float:none;	
