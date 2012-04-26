@@ -1162,6 +1162,9 @@ div#calendar div.views ul li a:focus {
  float:none; 
  margin: 0 0 12px 0;
 }
+.content-tertiary .events ol.hfeed {
+ margin 0;
+}
 div#calendar div.gridAndOptions div.calendarGrid {
  float:none;	
  margin:0;
