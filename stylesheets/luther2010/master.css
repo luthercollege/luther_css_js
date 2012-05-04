@@ -2020,6 +2020,7 @@ body.dada .content-primary img {
  padding: 3px 0 0 0;
 }
 .content-tertiary .featuresModule .feature .featureInfo h3.featureTitle {
+ width: 95%; 
  font-size: 1.0em;
  font-weight: bold;
  color:#eeeeee;
@@ -2033,6 +2034,7 @@ body.dada .content-primary img {
  padding: 0 0 4px 0;
 }
 .content-tertiary .featuresModule .feature .featureInfo .featureText {
+ width: 95%; 
  font-size: 0.94em;
  color:#cccccc;
  line-height:0.8;
@@ -2059,7 +2061,7 @@ body.dada .content-primary img {
     display: block;
     padding: 3px 3px 0 !important;
 }
-.style-home-01 .feature .featureInfo .featureNav {
+.style-home-01 .feature .featureInfo .featureNav .play-pause {
  position: absolute;
  line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
@@ -2080,7 +2082,35 @@ body.dada .content-primary img {
  color:#aaaaaa;
  letter-spacing: -1px;
 }
-.featuresModule .feature .featureInfo .featureNav .navBlock {
+.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock {
+ position: absolute;
+ line-height:0.5;
+ padding: 0.15em 0.15em 0.35em 0;
+ right: 5px;
+ bottom: 270px;
+}
+.content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock {
+ position: absolute;
+ line-height:0.5;
+ padding: 0.15em 0.15em 0.35em 0;
+ right: 3px;
+ bottom: 133px;
+}
+.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock a {
+ font-size: 2.0em;
+ color:#aaaaaa;
+ letter-spacing: -7px;
+}
+.content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock a {
+ font-size: 1.3em;
+ color:#aaaaaa;
+ letter-spacing: -5px;
+}
+.featuresModule .feature .featureInfo .featureNav .navBlock a.current.navItem {
+ color:#afd0ef;
+}
+.featuresModule .feature .featureInfo .featureNav .navBlock .button.prev, 
+.featuresModule .feature .featureInfo .featureNav .navBlock .button.next {
  display: none;
 }
 
