@@ -193,6 +193,31 @@ body.sports {
  margin-left:1.25em;
 }
 
+.pagination {
+ float: right;
+ margin-bottom: 1.4166666em;
+}
+.pagination a {
+ text-decoration: none;
+}
+.pagination a.previous,
+.pagination a.next {
+ color: #AFD0EF;
+}
+.pagination strong {
+ background: #F7FAFC;
+ font-weight: normal;
+}
+.pagination.above {
+ display: none;
+}
+#sidebar .pagination {
+ margin-right: 23px;
+}
+div.feedInfo {
+ margin: 0 0 1.416666em 0 !important;
+}
+
 /* / Tables \ */
 .content-primary table {
  /*background:#FFF6F2;*/
