@@ -175,7 +175,6 @@ body.sports {
  margin:0 0 0.928571em;
 }
 
-
 #pageContent ul,
 #pageContent ul li, 
 #blog.publication .fullPost ul,
@@ -190,7 +189,23 @@ body.sports {
 }
 #pageContent li,
 #blog.publication .fullPost li {
- margin-left:1.25em;
+ margin-left:2.5em;
+}
+#pageContent li ul,
+#blog.publication .fullPost li ul {
+ margin-top:-1.5em;
+ margin-left:1.5em;
+}
+#pageContent li ol,
+#blog.publication .fullPost li ol {
+ margin-top:0;
+ margin-left:-0.5em;
+}
+#pageContent ul,
+#pageContent ol,
+#blog.publication .fullPost ul,
+#blog.publication .fullPost ol {
+ margin-top: -1.0em;
 }
 
 .pagination {
