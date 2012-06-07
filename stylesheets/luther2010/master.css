@@ -111,7 +111,12 @@ body.sports {
 .style-home-01 .content-primary p:first-of-type {
  font-size:1.333333em;
  line-height:1.6875em;
- margin:0 0 1.6875em;
+ margin:1.333333em 0 1.6875em;
+}
+.style-home-01 .content-primary .first-p-unaltered p:first-of-type {
+ font-size:inherit;
+ line-height:inherit;
+ margin:1.5em 0 1.5em;
 }
 .content hr {
  background:#ddd;
