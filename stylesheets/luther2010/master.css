@@ -682,9 +682,19 @@ header.global #luther-logo {
 #nav-section li li a {
  font-weight:normal;
 }
+#nav-section li.navListItem.heading {
+ background: #004789;
+ background: #8A9D45;
+ background: #445566;
+ background: #40852D;
+ background: #8aab60;
+ margin-left: -9px;
+ margin-right: -1px;
+ color: #ffffff;
+}
 
 
-/* / Site Informqtion (Foot) \ */
+/* / Site Information (Foot) \ */
 nav.site-info ul,
 nav.site-info li {
  display:inline;	
@@ -1605,6 +1615,18 @@ border: 0;
 #meat .contentPost #blog.publication .item #spotlightcontent .images {
     left: 475px;
 }
+body.spotlight-detailed-list #meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title,
+body.spotlight-detailed-list #meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title a,
+body.spotlight-detailed-list #meat .contentPost .relatedPub .moduleNav ul.posts li.post h4, 
+body.spotlight-detailed-list #meat .contentPost .relatedPub .moduleNav ul.posts li.post h4 a {
+  color: #8aab60 !important;
+  font-size: 1.166666666em !important;
+  text-decoration: none;
+}
+body.spotlight-detailed-list .content h2.pageTitle,                 
+body.spotlight-detailed-list .style-home-02 .content h1.page-title {
+  color: #8aab60;
+}
 /* \\\ Spotlight /// */
 
 
@@ -1824,7 +1846,10 @@ footer.site-info {
   margin:8px 28px 8px 10px;
   text-align:center;
 }
-.figure img {
+.figure img ,
+#meat #content .publication ul.posts li.post .teaserImage img,
+#meat #content .relatedPub ul.posts li.post .teaserImage img,
+#meat #content .childrenListWithImages .tnImage img {
   border:1px solid silver;
   padding:3px;
   margin:0;
@@ -2253,7 +2278,7 @@ body.sports .style-home-01 .container {
     border-bottom: 1.5em solid #111111;
 }
 */
-/* minimal darker sports site test */
+/* minimal darker sports site */
 body.sports #nav-section, 
 body.sports .content-secondary {
  background: #111111;
@@ -2272,4 +2297,15 @@ body.sports .content-secondary header.blue-stripe > h1 > span {
 body.sports .events .vevent .summary a,
 body.sports .summary .location {
  color: #ffffff;
+}
+/* admissions site */
+body.admissions #nav-section, 
+body.admissions .content-secondary {
+ background: #FAF0E6;
+}
+body.admissions #section-sign.blue,
+body.admissions #section-sign.blue h1,
+body.admissions #section-sign.blue h2 {
+ background:#f2bf57;	
+ color:#ffffff;		
 }
