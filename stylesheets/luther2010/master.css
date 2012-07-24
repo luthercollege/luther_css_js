@@ -1835,6 +1835,22 @@ footer.site-info {
  text-transform:uppercase;
  width:930px;
 }
+body.sports footer.site-info {
+ overflow: auto;
+}
+body.sports footer.site-info .site-info-vcard {
+ width: 600px;
+ float: left;
+}
+footer.site-info .luther-sports-logos {
+ width: 200px;
+ float: left;
+ padding: 0.15em 0.15em 0.35em 0;
+}
+footer.site-info .luther-sports-logos img {
+ display: inline;
+ padding: 0 5px 0 5px;
+}
 /* \\\ Footer /// */
 
 /* /// Images \\\ */
@@ -2298,6 +2314,7 @@ body.sports .events .vevent .summary a,
 body.sports .summary .location {
  color: #ffffff;
 }
+
 /* admissions site */
 body.admissions #nav-section, 
 body.admissions .content-secondary {
