@@ -2326,3 +2326,41 @@ body.admissions #section-sign.blue h2 {
  background:#f2bf57;	
  color:#ffffff;		
 }
+body.admissions .content-tertiary {
+ padding: 1.6666em 0 0 14px;
+}
+body.admissions .call-to-action ul {
+ list-style-type: none;
+}
+body.admissions .call-to-action a {
+ display: block;
+ padding: 3px 3px 3px 8px;
+ color: #ffffff;
+ background: #8aab60;
+ font-size: 1.33333em;
+ text-decoration: none;
+ border-bottom: 1px solid #ffffff; 
+}
+body.admissions .call-to-action a:hover {
+ background: #9abb70;
+}
+body.admissions .call-to-action li:nth-of-type(4n+2) a {
+ background: #99b7ce;
+}
+body.admissions .call-to-action li:nth-of-type(4n+2) a:hover {
+ background: #A9c7de;
+}
+body.admissions .call-to-action li:nth-of-type(4n+3) a {
+ background: #f2bf57;
+ color: #556677;
+}
+body.admissions .call-to-action li:nth-of-type(4n+3) a:hover {
+ background: #f8cf67;
+}
+body.admissions .call-to-action li:nth-of-type(4n+4) a {
+ background: #00458a;
+ color: #f2bf57;
+}
+body.admissions .call-to-action li:nth-of-type(4n+4) a:hover {
+ background: #10559a;
+}
