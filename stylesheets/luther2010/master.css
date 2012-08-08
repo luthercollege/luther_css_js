@@ -222,6 +222,44 @@ body.sports {
 #blog.publication .fullPost ol {
  margin-top: -1.0em;
 }
+#blog.publication .back {
+ margin: 0 0 1.333333em 0;
+}
+#blog.publication .issueName {
+ display: none;
+}
+#blog.publication .moduleNav ul.sections li.section {
+ border: 0;
+}
+#blog.publication .moduleNav .sectionInfo h3 {
+ margin: 0.999999em 0 0.333333em 0;
+ background: #8AAB60;
+ line-height: 1.2;
+}
+#blog.publication .moduleNav .sectionInfo h3 a {
+ text-decoration: none;
+ color: #ffffff;
+ padding: 0 0 0 0.333333em;
+}
+#blog.publication .moduleNav .sectionFoot .viewEntireSection {
+ display: none;
+}
+#blog.publication .moduleNav ul.posts li.post {
+ padding: 0 !important;
+ margin: 0 !important;
+}
+#blog.publication .moduleNav ul.posts {
+ padding-top: 0.666666em;
+ padding-bottom: 0.666666em;
+}
+#blog.publication .moduleNav ul.posts li.post h4 {
+ line-height: 0.666666em;
+ font-size: 1.0em;
+ margin: 0;
+}
+#blog.publication .moduleNav ul.posts li.post h4 a {
+ text-decoration: none;
+}
 
 .pagination {
  float: right;
