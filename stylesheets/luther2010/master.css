@@ -234,31 +234,34 @@ body.sports {
 #blog.publication .moduleNav .sectionInfo h3 {
  margin: 0.999999em 0 0.333333em 0;
  background: #8AAB60;
+ background: #99B7CE;
  line-height: 1.2;
+ color: #ffffff;
+ padding: 0.15em 0 0.15em 0.333333em;
 }
 #blog.publication .moduleNav .sectionInfo h3 a {
  text-decoration: none;
  color: #ffffff;
- padding: 0 0 0 0.333333em;
 }
 #blog.publication .moduleNav .sectionFoot .viewEntireSection {
  display: none;
 }
-#blog.publication .moduleNav ul.posts li.post {
+#blog.publication .moduleNav .section ul.posts li.post {
  padding: 0 !important;
  margin: 0 !important;
 }
-#blog.publication .moduleNav ul.posts {
+#blog.publication .moduleNav .section ul.posts {
  padding-top: 0.666666em;
  padding-bottom: 0.666666em;
 }
-#blog.publication .moduleNav ul.posts li.post h4 {
- line-height: 0.666666em;
+#blog.publication .moduleNav .section ul.posts li.post h4 {
+ line-height: 0.999999em;
  font-size: 1.0em;
- margin: 0;
+ margin: 0 !important;
 }
-#blog.publication .moduleNav ul.posts li.post h4 a {
+#blog.publication .moduleNav .section ul.posts li.post h4 a {
  text-decoration: none;
+ color: #00458A;
 }
 
 .pagination {
@@ -723,9 +726,9 @@ header.global #luther-logo {
 #nav-section li.navListItem.heading {
  background: #004789;
  background: #8A9D45;
- background: #445566;
  background: #40852D;
  background: #8aab60;
+ background: #2561a8;
  margin-left: -9px;
  margin-right: -1px;
  color: #ffffff;
@@ -1619,7 +1622,7 @@ border: 0;
  display:block;	
 }
 
-
+/*
 .spotlight-archive  #meat .contentPost #blog.publication .moduleNav ul.posts li.post { 
  margin:0;	
  padding:0;
@@ -1628,11 +1631,14 @@ border: 0;
 .spotlight-archive #meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title {
  font-size:1em;	
  font-weight:normal;
- line-height:1.5em; /* 12px * 1.5em = 18px */	 
+ line-height:1.5em;
  margin:0;	
 }
 .spotlight-archive .content h3 {
  margin-top:0;	
+}*/
+.spotlight-archive .back {
+ margin: 0 0 1.333333em 0;
 }
 .spotlight-archive .date,
 .spotlight-archive .desc,
@@ -2357,6 +2363,9 @@ body.sports .summary .location {
 body.admissions #nav-section, 
 body.admissions .content-secondary {
  background: #FAF0E6;
+}
+body.admissions #nav-section li.navListItem.heading {
+ background: #8aab60;
 }
 body.admissions #section-sign.blue,
 body.admissions #section-sign.blue h1,
