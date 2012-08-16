@@ -193,8 +193,13 @@ body.sports {
  list-style:decimal outside;
 }
 #pageContent li,
+ul.childrenList li, 
 #blog.publication .fullPost li {
  margin-left:2.5em;
+}
+ul.childrenList li h4 a {
+ text-decoration:none;
+ font-size: 0.94em;
 }
 #pageContent li > ul,
 #pageContent li > ul > li > ol,
