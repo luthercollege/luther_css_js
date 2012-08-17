@@ -1676,6 +1676,9 @@ body.spotlight-detailed-list .content h2.pageTitle,
 body.spotlight-detailed-list .style-home-02 .content h1.page-title {
   color: #8aab60;
 }
+body.spotlight-detailed-list #meat .contentPost #blog.publication .moduleNav ul.posts li.post .desc p:first-of-type {
+ display: none;
+}
 /* \\\ Spotlight /// */
 
 
