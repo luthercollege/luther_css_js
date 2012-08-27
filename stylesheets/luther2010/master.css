@@ -183,18 +183,23 @@ body.sports {
 #pageContent ul,
 #pageContent ul > li, 
 #blog.publication .fullPost ul,
-#blog.publication .fullPost ul > li {
+#blog.publication .fullPost ul > li, 
+.contentMain #blogDescription ul,
+.contentMain #blogDescription ul > li {
  list-style:disc outside;
 }
 #pageContent ol,
 #pageContent ol > li,
 #blog.publication .fullPost ol,
-#blog.publication .fullPost ol > li {
+#blog.publication .fullPost ol > li,
+.contentMain #blogDescription ol,
+.contentMain #blogDescription ol > li {
  list-style:decimal outside;
 }
 #pageContent li,
 ul.childrenList li, 
-#blog.publication .fullPost li {
+#blog.publication .fullPost li,
+.contentMain #blogDescription li {
  margin-left:2.5em;
 }
 ul.childrenList li h4 a {
@@ -204,19 +209,24 @@ ul.childrenList li h4 a {
 #pageContent li > ul,
 #pageContent li > ul > li > ol,
 #blog.publication .fullPost li > ul,
-#blog.publication .fullPost li > ul > li > ol {
+#blog.publication .fullPost li > ul > li > ol, 
+.contentMain #blogDescription li > ul,
+.contentMain #blogDescription li > ul > li > ol {
  margin-top:-1.5em;
  margin-left:1.5em;
 }
 #pageContent li > ol,
-#blog.publication .fullPost li > ol {
+#blog.publication .fullPost li > ol, 
+.contentMain #blogDescription li > ol {
  margin-top:0;
  margin-left:-0.5em;
 }
 #pageContent ol > li > ul,
 #pageContent ul > li > ol,
 #blog.publication .fullPost ol > li > ul,
-#blog.publication .fullPost ul > li > ul {
+#blog.publication .fullPost ul > li > ul, 
+.contentMain #blogDescription ol > li > ul,
+.contentMain #blogDescription ul > li > ul {
  margin-top: 0;
  margin-left:-0.5em;
  margin-bottom: 0;
@@ -224,7 +234,9 @@ ul.childrenList li h4 a {
 #pageContent ul,
 #pageContent ol,
 #blog.publication .fullPost ul,
-#blog.publication .fullPost ol {
+#blog.publication .fullPost ol,
+.contentMain #blogDescription ul,
+.contentMain #blogDescription ol {
  margin-top: -1.0em;
 }
 #blog.publication .back {
