@@ -212,8 +212,8 @@ ul.childrenList li h4 a {
 #blog.publication .fullPost li > ul > li > ol, 
 .contentMain #blogDescription li > ul,
 .contentMain #blogDescription li > ul > li > ol {
- margin-top:-1.5em;
- margin-left:1.5em;
+ /*margin-top:-1.5em;*/
+ /*margin-left:1.5em;*/
 }
 #pageContent li > ol,
 #blog.publication .fullPost li > ol, 
@@ -237,7 +237,7 @@ ul.childrenList li h4 a {
 #blog.publication .fullPost ol,
 .contentMain #blogDescription ul,
 .contentMain #blogDescription ol {
- margin-top: -1.0em;
+ /*margin-top: -1.0em;*/
 }
 #blog.publication .back {
  margin: 0 0 1.333333em 0;
