@@ -239,6 +239,22 @@ ul.childrenList li h4 a {
 .contentMain #blogDescription ol {
  /*margin-top: -1.0em;*/
 }
+#pageContent ul.with-space li,
+#pageContent ol.with-space li,
+#blog.publication .fullPost ul.with-space li,
+#blog.publication .fullPost ol.with-space li,
+.contentMain #blogDescription ul.with-space li,
+.contentMain #blogDescription ol.with-space li {
+ margin-bottom: 1.0em;
+}
+#pageContent ul.with-space li:first-of-type,
+#pageContent ol.with-space li:first-of-type,
+#blog.publication .fullPost ul.with-space li:first-of-type,
+#blog.publication .fullPost ol.with-space li:first-of-type,
+.contentMain #blogDescription ul.with-space li:first-of-type,
+.contentMain #blogDescription ol.with-space li:first-of-type {
+ margin-top: 1.0em;
+}
 #blog.publication .back {
  margin: 0 0 1.333333em 0;
 }
