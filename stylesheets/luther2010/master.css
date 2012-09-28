@@ -296,6 +296,17 @@ ul.childrenList li h4 a {
  text-decoration: none;
  color: #00458A;
 }
+#blog.publication .moduleNav ul.sections li.section ul.posts {
+ padding-left: 1em;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post h4,
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post .desc {
+ width: 308px;
+}
+#meat .contentPost #blog.publication .moduleNav .section ul.posts li.post h4,
+#meat .contentPost #blog.publication .moduleNav .section ul.posts li.post .desc {
+ width: 298px;
+}
 
 .pagination {
  float: right;
