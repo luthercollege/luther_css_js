@@ -182,6 +182,8 @@ body.sports {
 
 #pageContent ul,
 #pageContent ul > li, 
+.content.content-primary .main-blurb ul,
+.content.content-primary .main-blurb ul > li, 
 #blog.publication .fullPost ul,
 #blog.publication .fullPost ul > li, 
 .contentMain #blogDescription ul,
@@ -190,6 +192,8 @@ body.sports {
 }
 #pageContent ol,
 #pageContent ol > li,
+.content.content-primary .main-blurb ol,
+.content.content-primary .main-blurb ol > li,
 #blog.publication .fullPost ol,
 #blog.publication .fullPost ol > li,
 .contentMain #blogDescription ol,
@@ -197,6 +201,7 @@ body.sports {
  list-style:decimal outside;
 }
 #pageContent li,
+.content.content-primary .main-blurb li,
 ul.childrenList li, 
 #blog.publication .fullPost li,
 .contentMain #blogDescription li {
@@ -206,16 +211,15 @@ ul.childrenList li h4 a {
  text-decoration:none;
  font-size: 0.94em;
 }
-#pageContent li > ul,
 #pageContent li > ul > li > ol,
-#blog.publication .fullPost li > ul,
+.content.content-primary .main-blurb li > ul > li > ol,
 #blog.publication .fullPost li > ul > li > ol, 
-.contentMain #blogDescription li > ul,
 .contentMain #blogDescription li > ul > li > ol {
  /*margin-top:-1.5em;*/
- /*margin-left:1.5em;*/
+ margin-left:2.5em;
 }
 #pageContent li > ol,
+.content.content-primary .main-blurb li > ol,
 #blog.publication .fullPost li > ol, 
 .contentMain #blogDescription li > ol {
  margin-top:0;
@@ -223,6 +227,8 @@ ul.childrenList li h4 a {
 }
 #pageContent ol > li > ul,
 #pageContent ul > li > ol,
+.content.content-primary .main-blurb ol > li > ul,
+.content.content-primary .main-blurb ul > li > ol,
 #blog.publication .fullPost ol > li > ul,
 #blog.publication .fullPost ul > li > ul, 
 .contentMain #blogDescription ol > li > ul,
@@ -233,6 +239,8 @@ ul.childrenList li h4 a {
 }
 #pageContent ul,
 #pageContent ol,
+.content.content-primary .main-blurb ul,
+.content.content-primary .main-blurb ol,
 #blog.publication .fullPost ul,
 #blog.publication .fullPost ol,
 .contentMain #blogDescription ul,
@@ -241,6 +249,8 @@ ul.childrenList li h4 a {
 }
 #pageContent ul.with-space li,
 #pageContent ol.with-space li,
+.content.content-primary .main-blurb ul.with-space li,
+.content.content-primary .main-blurb ol.with-space li,
 #blog.publication .fullPost ul.with-space li,
 #blog.publication .fullPost ol.with-space li,
 .contentMain #blogDescription ul.with-space li,
@@ -249,6 +259,8 @@ ul.childrenList li h4 a {
 }
 #pageContent ul.with-space li:first-of-type,
 #pageContent ol.with-space li:first-of-type,
+.content.content-primary .main-blurb ul.with-space li:first-of-type,
+.content.content-primary .main-blurb ol.with-space li:first-of-type,
 #blog.publication .fullPost ul.with-space li:first-of-type,
 #blog.publication .fullPost ol.with-space li:first-of-type,
 .contentMain #blogDescription ul.with-space li:first-of-type,
