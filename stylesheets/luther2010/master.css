@@ -577,7 +577,28 @@ header.global #luther-logo {
 }
 #nav-search li.search {
  display:inline-block;	
- width: 20em;
+ width: 19em;
+}
+/* overrides of google custom search engine */
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+ padding-right: 2px;
+ font-size: 96%;
+}
+.gsc-input-box {
+ height: 22px;
+}
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+ margin-top: 0;
+ padding: 6px;
+ background-color: transparent;
+ border-color: transparent;
+}
+input.gsc-search-button-v2:hover, input.gsc-search-button-v2:focus {
+ background-color: transparent;
+ border-color: transparent;
+}
+.gscb_a {
+ font: 22px/13px arial, sans-serif;
 }
 
 #nav-search a,
