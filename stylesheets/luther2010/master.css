@@ -2468,3 +2468,28 @@ body.admissions .call-to-action li:nth-of-type(4n+4) a {
 body.admissions .call-to-action li:nth-of-type(4n+4) a:hover {
  background: #10559a;
 }
+
+/* a to z index */
+.contentPost #atoz > ul > li > ul {
+ padding-left: 10px;
+}
+.contentPost #atoz p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.5em 0 1.0em 0;
+}
+.contentPost #atoz > ul > li .badge {
+ margin: 10px 0 3px 0;
+}
+.badge {
+ color: #ffffff;
+ font-weight: bold;
+ background-color: #999999;
+ border-radius: 9px 9px 9px 9px;
+ padding-left: 9px;
+ padding-right: 9px;
+ display: inline-block;
+}
+.badge.badge-info {
+ background-color: #99B7CE;
+}
