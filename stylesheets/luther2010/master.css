@@ -1281,8 +1281,8 @@ nav.button a:focus {
 }
 
 .style-search-results .content-primary {
- padding:0;
- width:689px;
+ padding-top: 0px;
+ width: 689px;
 }
 
 div#calendar div.views ul li strong,
