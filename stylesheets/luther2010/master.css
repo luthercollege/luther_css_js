@@ -1998,6 +1998,18 @@ footer.site-info .luther-sports-logos img {
   padding:3px;
   margin:0;
 }
+.style-home-00 #av .video.fullsize {
+  margin: 15px 0 0 20px;
+}
+.style-home-00 #av .video.fullsize iframe,
+.style-home-00 #av .video.fullsize embed {
+  border-left: 7px solid #95B3CD;
+  border-right: 7px solid #95B3CD;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0;
+}
+
 .content section.events nav.button hr,
 .content-tertiary hr,
 #av hr {
@@ -2193,7 +2205,8 @@ body.dada .content-primary img {
 /* \\\ Emergency message /// */
 
 /* /// Feature/feature \\\ */
-.style-home-01 .featuresModule {
+.style-home-01 .featuresModule,
+.style-home-00 .featuresModule {
  overflow: hidden;
 }
 .content-tertiary .featuresModule li.feature {
@@ -2208,7 +2221,8 @@ body.dada .content-primary img {
  width:100%;
  height: auto;
 }
-.style-home-01 .featuresModule .feature .featureInfo h3.featureTitle {
+.style-home-01 .featuresModule .feature .featureInfo h3.featureTitle, 
+.style-home-00 .featuresModule .feature .featureInfo h3.featureTitle {
  width: 97%; 
  font-size: 1.3em;
  font-weight: bold;
@@ -2223,7 +2237,8 @@ body.dada .content-primary img {
  color:#eeeeee;
  line-height:1;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureText {
+.style-home-01 .featuresModule .feature .featureInfo .featureText, 
+.style-home-00 .featuresModule .feature .featureInfo .featureText {
  width: 97%;
  font-size: 1.1em;
  color:#cccccc;
@@ -2245,7 +2260,13 @@ body.dada .content-primary img {
 .style-home-01 .featuresModule .feature .featureTitle span.noLink,
 .style-home-01 .featuresModule .feature .featureText a.dest,
 .style-home-01 .featuresModule .feature .featureText a.anchor,
-.style-home-01 .featuresModule .feature .featureText span.noLink {
+.style-home-01 .featuresModule .feature .featureText span.noLink, 
+.style-home-00 .featuresModule .feature .featureTitle a.dest,
+.style-home-00 .featuresModule .feature .featureTitle a.anchor,
+.style-home-00 .featuresModule .feature .featureTitle span.noLink,
+.style-home-00 .featuresModule .feature .featureText a.dest,
+.style-home-00 .featuresModule .feature .featureText a.anchor,
+.style-home-00 .featuresModule .feature .featureText span.noLink {
     display: block;
     padding: 1px 3px 0 4px !important;
 }
@@ -2258,7 +2279,8 @@ body.dada .content-primary img {
     display: block;
     padding: 3px 3px 0 !important;
 }
-.style-home-01 .feature .featureInfo .featureNav .play-pause {
+.style-home-01 .feature .featureInfo .featureNav .play-pause, 
+.style-home-00 .feature .featureInfo .featureNav .play-pause {
  position: absolute;
  line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
@@ -2269,7 +2291,8 @@ body.dada .content-primary img {
  line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureNav a {
+.style-home-01 .featuresModule .feature .featureInfo .featureNav a, 
+.style-home-00 .featuresModule .feature .featureInfo .featureNav a {
  font-size: 1.2em;
  color:#aaaaaa;
  letter-spacing: -1px;
@@ -2279,7 +2302,8 @@ body.dada .content-primary img {
  color:#aaaaaa;
  letter-spacing: -1px;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock {
+.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock, 
+.style-home-00 .featuresModule .feature .featureInfo .featureNav .navBlock {
  position: absolute;
  line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
@@ -2293,7 +2317,8 @@ body.dada .content-primary img {
  right: 3px;
  bottom: 133px;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock a {
+.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock a, 
+.style-home-00 .featuresModule .feature .featureInfo .featureNav .navBlock a {
  font-size: 2.0em;
  color:#aaaaaa;
  letter-spacing: -7px;
