@@ -2356,15 +2356,15 @@ img.athlete_image {
 img.video_streaming,
 img.audio_streaming {
  float:right;
- width: 14px;
  height: 14px;
+ width: 14px;
  display: inline;
  padding: 0 1px 0 1px;
 }
 .eventDetails img.video_streaming,
 .eventDetails img.audio_streaming {
- width: 18px;
  height: 18px;
+ width: 18px;
 }
 
 /* \\\ Cluetip athlete tooltip /// */
