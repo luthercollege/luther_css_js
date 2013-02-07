@@ -1571,6 +1571,16 @@ border: 0;
  margin:0;
 }
 
+.content-tertiary .publication .moduleNav ul li h4 a {
+ text-decoration: none;
+ color: #003580;
+ font-size: 0.90em;
+ line-height: 1.5em;
+}
+.content-tertiary .publication .moduleNav ul li {
+ border-top: 0;
+}
+
 .content-tertiary .spotlight article {
  padding:0;
 }
