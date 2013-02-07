@@ -272,6 +272,16 @@ ul.childrenList li h4 a {
 #blog.publication .issueName {
  display: none;
 }
+#blog.publication .moduleNav .issueBlurbs {
+ margin-bottom: 12px;
+}
+#blog.publication .moduleNav .noItemsText {
+ display: none;
+}
+#blog.publication .moduleNav ul.sections li.section {
+ border: 0;
+}
+
 #blog.publication .moduleNav ul.sections li.section {
  border: 0;
 }
@@ -341,7 +351,7 @@ ul.childrenList li h4 a {
  margin-right: 23px;
 }
 div.feedInfo {
- margin: 0 0 1.416666em 0 !important;
+ margin: 1.416666em 0 1.416666em 0 !important;
 }
 
 /* / Tables \ */
