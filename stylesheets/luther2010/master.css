@@ -1494,10 +1494,15 @@ border: 0;
  color:#333;	
  text-decoration:none;	
 }
-.news .hfeed article {
+.news .hfeed article,
+.content-tertiary .news ul.posts li { 
  margin:0 0 1.5em;
 }
-.news .hfeed article h1 {
+.content-tertiary .news ul.posts {
+ margin: 0 0 1.5em; !important
+}
+.news .hfeed article h1,
+.content-tertiary .news ul.posts li.post h4 a {
  color:#003580;
  font-size:1em;
  line-height:1.5em;
