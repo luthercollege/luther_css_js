@@ -2330,14 +2330,12 @@ body.dada .content-primary img {
 .style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock, 
 .style-home-00 .featuresModule .feature .featureInfo .featureNav .navBlock {
  position: absolute;
- line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
  right: 5px;
- bottom: 270px;
+ bottom: 265px;
 }
 .content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock {
  position: absolute;
- line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
  right: 3px;
  bottom: 133px;
@@ -2346,12 +2344,12 @@ body.dada .content-primary img {
 .style-home-00 .featuresModule .feature .featureInfo .featureNav .navBlock a {
  font-size: 2.0em;
  color:#aaaaaa;
- letter-spacing: -7px;
+ margin-left: 0;
 }
 .content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock a {
  font-size: 1.3em;
  color:#aaaaaa;
- letter-spacing: -5px;
+ margin-left: 0;
 }
 .featuresModule .feature .featureInfo .featureNav .navBlock a.current.navItem {
  color:#afd0ef;
