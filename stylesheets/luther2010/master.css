@@ -1277,19 +1277,98 @@ nav.button a:focus {
  padding-right:0;
  width:689px;
 }
+.style-one-column div#events .dayblock h4.day {
+ width: 475px;
+ margin: 0 !important;
+ /*background: #dddddd;*/
+ font-size: 100%;
+ line-height: 1.2;
+ color: #003388;
+ padding: 0.75em 0 0.15em 0.333333em;
+}
+.style-one-column div#events .dayblock ul.dayEvents {
+ margin: 0 !important;
+ width: 475px;
+ /*padding: 0.15em 0 0.15em 0.333333em !important;*/
+}
+.style-one-column div#events .dayblock li.event {
+ margin: 0 !important;
+ background-color: #E0E6F3;
+}
+.style-one-column div#calendar div.newEventsError {
+ width: 475px;
+}
+.style-one-column div#calendar div.newEventsError ul li {
+ list-style:none;
+} 
+.style-one-column div#events .dayblock li.event:nth-child(even){
+ background-color: #f4f6f9;
+}
+.style-one-column div#events .dayblock li.event table {
+ background: inherit;
+ border: 0;
+ margin: 0 0 0 .333333em;
+}
+.style-one-column div#events .dayblock li.event th,
+.style-one-column div#events .dayblock li.event td {
+ border: 0;
+ padding: 0;
+}
+.style-one-column div#events .dayblock li.event a {
+ text-decoration: none;
+}
 .style-one-column div#calendar div.gridAndOptions {
  background:none;
  border:none;
- border-left:1px solid #ccc;
+ /*border-left:1px solid #ccc;*/
  clear:left;
  float: right;
  margin-bottom: 12px;
  margin-left: 7px;
  margin-top:2px;
  padding:3em 0 0 14px;		
- width:222px;	
+ /*width:222px;	*/
 }
-
+.style-one-column div#calendar div.nav a {
+ background: inherit;
+ color: #ffffff;
+}
+.style-one-column div#calendar div.views ul li a,
+.style-one-column div#calendar div.views ul li strong {
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ padding: 0.25em 2.70em 0 2.70em;
+}
+.style-one-column div#calendar .focus {
+ width: 477px;
+ background-color: #f4f6f9;
+}
+.style-one-column div#calendar div.focus form input#calendar_search_above {
+ margin-left: 1px;
+ border: 1px solid #b5c7d7;
+ background-color: #ffffff;
+ width: 220px;
+ font-size: 1.0em;
+ font-weight: normal;
+}
+.style-one-column div#calendar div.options div,
+.style-one-column div#calendar div.dateJump,
+.style-one-column div#calendar div.gridAndOptions div.search {
+ margin: 0;
+}
+.style-one-column div#calendar div.dateJump {
+ margin-top: 10px;
+}
+.style-one-column div#calendar div.dateJump input[type="submit"] {
+ margin: 3px 0 0 0;
+ 
+}
+.style-one-column div#calendar div.dateJump form h4 {
+ display: none;
+}
+.style-one-column div#calendar div.search form input#calendar_search {
+ width: 135px;
+}
 .style-search-results .content-primary {
  padding:0;
  width:689px;
@@ -1305,7 +1384,7 @@ div#calendar div.views ul li a:visited,
 div#calendar div.views ul li a:hover,
 div#calendar div.views ul li a:active,
 div#calendar div.views ul li a:focus {
- background:#E3ECF6;	
+ background:#E0E6F3;
 }
 div#calendar div.views ul li a:hover,
 div#calendar div.views ul li a:active,
@@ -1317,7 +1396,7 @@ div#calendar div.views ul li a:focus {
 .events .calendarGrid {
  border:0;
  padding:0;
- background:#E3ECF6;	
+ background:#f4f6f9;
  color:#333;
  float:right;	
  font-weight:bold;
@@ -1335,7 +1414,15 @@ div#calendar div.views ul li a:focus {
 div#calendar div.gridAndOptions div.calendarGrid {
  float:none;	
  margin:0;
- width:188px;	
+ width:190px;	
+ border:1px solid #B5C7D7;
+}
+div#calendar div.gridAndOptions div.calendarGrid td.today {
+ border: 2px solid #99aabb;
+}
+div#calendar div.gridAndOptions div.calendarGrid a.previous,
+div#calendar div.gridAndOptions div.calendarGrid a.next {
+ color: #003388;
 }
 .content-tertiary .events h2 {
  font-size:1.166666em; /* 14px */
@@ -1407,7 +1494,7 @@ div#calendar div.gridAndOptions div.calendarGrid {
 .gridAndOptions .calendarGrid td.currentlyViewing,
 .events .calendarGrid td.currentlyViewing {
  /*background-color:#D6E3F6;*/
- background:#E3ECF6;	
+ background: #E0E6F3 !important;	
 }
 .gridAndOptions .calendarGrid td.today,
 .gridAndOptions .calendarGrid td.today,
