@@ -1277,7 +1277,8 @@ nav.button a:focus {
  padding-right:0;
  width:689px;
 }
-.style-one-column div#events .dayblock h4.day {
+.style-one-column div#events .dayblock h4.day, 
+.style-one-column div#events .ongoingblock h3 {
  width: 475px;
  margin: 0 !important;
  /*background: #dddddd;*/
@@ -1286,31 +1287,39 @@ nav.button a:focus {
  color: #003388;
  padding: 0.75em 0 0.15em 0.333333em;
 }
-.style-one-column div#events .dayblock ul.dayEvents {
+.style-one-column div#events .dayblock ul.dayEvents, 
+.style-one-column div#events .ongoingblock ul.ongoingEvents {
  margin: 0 !important;
  width: 475px;
  /*padding: 0.15em 0 0.15em 0.333333em !important;*/
 }
-.style-one-column div#events .dayblock li.event {
+.style-one-column div#events .dayblock li.event, 
+.style-one-column div#events .ongoingblock li.event {
  margin: 0 !important;
  background-color: #E0E6F3;
 }
-.style-one-column div#calendar div.newEventsError {
- width: 475px;
+.style-one-column div#calendar div.newEventsError,
+.style-one-column div#calendar div#events div.dayblock,
+.style-one-column div#calendar div#events div.ongoingblock {
+ width: 479px;
 }
 .style-one-column div#calendar div.newEventsError ul li {
  list-style:none;
 } 
-.style-one-column div#events .dayblock li.event:nth-child(even){
+.style-one-column div#events .dayblock li.event:nth-child(even),
+.style-one-column div#events .ongoingblock li.event:nth-child(even){
  background-color: #f4f6f9;
 }
-.style-one-column div#events .dayblock li.event table {
+.style-one-column div#events .dayblock li.event table,
+.style-one-column div#events .ongoingblock li.event table {
  background: inherit;
  border: 0;
  margin: 0 0 0 .333333em;
 }
 .style-one-column div#events .dayblock li.event th,
-.style-one-column div#events .dayblock li.event td {
+.style-one-column div#events .dayblock li.event td,
+.style-one-column div#events .ongoingblock li.event th,
+.style-one-column div#events .ongoingblock li.event td {
  border: 0;
  padding: 0;
 }
