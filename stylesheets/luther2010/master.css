@@ -1294,7 +1294,8 @@ nav.button a:focus {
  /*padding: 0.15em 0 0.15em 0.333333em !important;*/
 }
 .style-one-column div#events .dayblock li.event, 
-.style-one-column div#events .ongoingblock li.event {
+.style-one-column div#events .ongoingblock li.event,
+.style-two-columns .eventDetails tr {
  margin: 0 !important;
  background-color: #E0E6F3;
 }
@@ -1307,21 +1308,63 @@ nav.button a:focus {
  list-style:none;
 } 
 .style-one-column div#events .dayblock li.event:nth-child(even),
-.style-one-column div#events .ongoingblock li.event:nth-child(even){
+.style-one-column div#events .ongoingblock li.event:nth-child(even),
+.style-two-columns .eventDetails tr:nth-child(even) {
  background-color: #f4f6f9;
 }
 .style-one-column div#events .dayblock li.event table,
-.style-one-column div#events .ongoingblock li.event table {
+.style-one-column div#events .ongoingblock li.event table,
+.style-two-columns div#calendar .eventDetails table {
  background: inherit;
  border: 0;
  margin: 0 0 0 .333333em;
 }
+.style-two-columns div#calendar .eventDetails table {
+ margin: 0 0 1.5em 0;
+ font-size: 1.2em;
+}
 .style-one-column div#events .dayblock li.event th,
 .style-one-column div#events .dayblock li.event td,
 .style-one-column div#events .ongoingblock li.event th,
-.style-one-column div#events .ongoingblock li.event td {
+.style-one-column div#events .ongoingblock li.event td, 
+.style-two-columns .eventDetails th,
+.style-two-columns .eventDetails td {
  border: 0;
  padding: 0;
+}
+.style-two-columns .eventDetails th,
+.style-two-columns .eventDetails td {
+ border: 1px solid #FFFFFF;
+ padding: 7px;
+}
+.style-two-columns .eventDetails p.sponsor,
+.style-two-columns .eventDetails p.contact,
+.style-two-columns .eventDetails p.eventUrl {
+ color: #777777;
+ margin: 0;
+}
+.style-two-columns .eventDetails p.sponsor a,
+.style-two-columns .eventDetails p.contact a,
+.style-two-columns .eventDetails p.eventUrl a {
+ text-decoration: none; 
+}
+.style-two-columns .eventDetails p.sponsor strong,
+.style-two-columns .eventDetails p.contact strong,
+.style-two-columns .eventDetails p.eventUrl strong {
+ font-weight: normal;
+}
+.style-two-columns .eventDetails p.back {
+ border: none;
+ margin: 4px 0 0 10px;
+ font-size: 1.4em;
+ background-color: #bac5dc;
+ display: inline-block;
+ padding: 4px;
+ border-radius: 16px;
+}
+.style-two-columns .eventDetails p.back a {
+ text-decoration: none; 
+ color: #ffffff;
 }
 .style-one-column div#events .dayblock li.event a {
  text-decoration: none;
