@@ -272,6 +272,16 @@ ul.childrenList li h4 a {
 #blog.publication .issueName {
  display: none;
 }
+#blog.publication .moduleNav .issueBlurbs {
+ margin-bottom: 12px;
+}
+#blog.publication .moduleNav .noItemsText {
+ display: none;
+}
+#blog.publication .moduleNav ul.sections li.section {
+ border: 0;
+}
+
 #blog.publication .moduleNav ul.sections li.section {
  border: 0;
 }
@@ -341,7 +351,7 @@ ul.childrenList li h4 a {
  margin-right: 23px;
 }
 div.feedInfo {
- margin: 0 0 1.416666em 0 !important;
+ margin: 1.416666em 0 1.416666em 0 !important;
 }
 
 /* / Tables \ */
@@ -1267,19 +1277,150 @@ nav.button a:focus {
  padding-right:0;
  width:689px;
 }
+.style-one-column div#events .dayblock h4.day, 
+.style-one-column div#events .ongoingblock h3 {
+ width: 475px;
+ margin: 0 !important;
+ /*background: #dddddd;*/
+ font-size: 100%;
+ line-height: 1.2;
+ color: #003388;
+ padding: 0.75em 0 0.15em 0.333333em;
+}
+.style-one-column div#events .dayblock ul.dayEvents, 
+.style-one-column div#events .ongoingblock ul.ongoingEvents {
+ margin: 0 !important;
+ width: 475px;
+ /*padding: 0.15em 0 0.15em 0.333333em !important;*/
+}
+.style-one-column div#events .dayblock li.event, 
+.style-one-column div#events .ongoingblock li.event,
+.style-two-columns .eventDetails tr {
+ margin: 0 !important;
+ background-color: #E0E6F3;
+}
+.style-one-column div#calendar div.newEventsError,
+.style-one-column div#calendar div#events div.dayblock,
+.style-one-column div#calendar div#events div.ongoingblock {
+ width: 479px;
+}
+.style-one-column div#calendar div.newEventsError ul li {
+ list-style:none;
+} 
+.style-one-column div#events .dayblock li.event:nth-child(even),
+.style-one-column div#events .ongoingblock li.event:nth-child(even),
+.style-two-columns .eventDetails tr:nth-child(even) {
+ background-color: #f4f6f9;
+}
+.style-one-column div#events .dayblock li.event table,
+.style-one-column div#events .ongoingblock li.event table,
+.style-two-columns div#calendar .eventDetails table {
+ background: inherit;
+ border: 0;
+ margin: 0 0 0 .333333em;
+}
+.style-two-columns div#calendar .eventDetails table {
+ margin: 0 0 1.5em 0;
+ font-size: 1.2em;
+}
+.style-one-column div#events .dayblock li.event th,
+.style-one-column div#events .dayblock li.event td,
+.style-one-column div#events .ongoingblock li.event th,
+.style-one-column div#events .ongoingblock li.event td, 
+.style-two-columns .eventDetails th,
+.style-two-columns .eventDetails td {
+ border: 0;
+ padding: 0;
+}
+.style-two-columns .eventDetails th,
+.style-two-columns .eventDetails td {
+ border: 1px solid #FFFFFF;
+ padding: 7px;
+}
+.style-two-columns .eventDetails p.sponsor,
+.style-two-columns .eventDetails p.contact,
+.style-two-columns .eventDetails p.eventUrl {
+ color: #777777;
+ margin: 0;
+}
+.style-two-columns .eventDetails p.sponsor a,
+.style-two-columns .eventDetails p.contact a,
+.style-two-columns .eventDetails p.eventUrl a {
+ text-decoration: none; 
+}
+.style-two-columns .eventDetails p.sponsor strong,
+.style-two-columns .eventDetails p.contact strong,
+.style-two-columns .eventDetails p.eventUrl strong {
+ font-weight: normal;
+}
+.style-two-columns .eventDetails p.back {
+ border: none;
+ margin: 4px 0 0 10px;
+ font-size: 1.4em;
+ background-color: #bac5dc;
+ display: inline-block;
+ padding: 4px;
+ border-radius: 16px;
+}
+.style-two-columns .eventDetails p.back a {
+ text-decoration: none; 
+ color: #ffffff;
+}
+.style-one-column div#events .dayblock li.event a {
+ text-decoration: none;
+}
 .style-one-column div#calendar div.gridAndOptions {
  background:none;
  border:none;
- border-left:1px solid #ccc;
+ /*border-left:1px solid #ccc;*/
  clear:left;
  float: right;
  margin-bottom: 12px;
  margin-left: 7px;
  margin-top:2px;
  padding:3em 0 0 14px;		
- width:222px;	
+ /*width:222px;	*/
 }
-
+.style-one-column div#calendar div.nav a {
+ background: inherit;
+ color: #ffffff;
+}
+.style-one-column div#calendar div.views ul li a,
+.style-one-column div#calendar div.views ul li strong {
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ padding: 0.25em 2.70em 0 2.70em;
+}
+.style-one-column div#calendar .focus {
+ width: 477px;
+ background-color: #f4f6f9;
+}
+.style-one-column div#calendar div.focus form input#calendar_search_above {
+ margin-left: 1px;
+ border: 1px solid #b5c7d7;
+ background-color: #ffffff;
+ width: 220px;
+ font-size: 1.0em;
+ font-weight: normal;
+}
+.style-one-column div#calendar div.options div,
+.style-one-column div#calendar div.dateJump,
+.style-one-column div#calendar div.gridAndOptions div.search {
+ margin: 0;
+}
+.style-one-column div#calendar div.dateJump {
+ margin-top: 10px;
+}
+.style-one-column div#calendar div.dateJump input[type="submit"] {
+ margin: 3px 0 0 0;
+ 
+}
+.style-one-column div#calendar div.dateJump form h4 {
+ display: none;
+}
+.style-one-column div#calendar div.search form input#calendar_search {
+ width: 135px;
+}
 .style-search-results .content-primary {
  padding-top: 0px;
  width: 689px;
@@ -1295,7 +1436,7 @@ div#calendar div.views ul li a:visited,
 div#calendar div.views ul li a:hover,
 div#calendar div.views ul li a:active,
 div#calendar div.views ul li a:focus {
- background:#E3ECF6;	
+ background:#E0E6F3;
 }
 div#calendar div.views ul li a:hover,
 div#calendar div.views ul li a:active,
@@ -1307,7 +1448,7 @@ div#calendar div.views ul li a:focus {
 .events .calendarGrid {
  border:0;
  padding:0;
- background:#E3ECF6;	
+ background:#f4f6f9;
  color:#333;
  float:right;	
  font-weight:bold;
@@ -1325,7 +1466,15 @@ div#calendar div.views ul li a:focus {
 div#calendar div.gridAndOptions div.calendarGrid {
  float:none;	
  margin:0;
- width:188px;	
+ width:190px;	
+ border:1px solid #B5C7D7;
+}
+div#calendar div.gridAndOptions div.calendarGrid td.today {
+ border: 2px solid #99aabb;
+}
+div#calendar div.gridAndOptions div.calendarGrid a.previous,
+div#calendar div.gridAndOptions div.calendarGrid a.next {
+ color: #003388;
 }
 .content-tertiary .events h2 {
  font-size:1.166666em; /* 14px */
@@ -1397,7 +1546,7 @@ div#calendar div.gridAndOptions div.calendarGrid {
 .gridAndOptions .calendarGrid td.currentlyViewing,
 .events .calendarGrid td.currentlyViewing {
  /*background-color:#D6E3F6;*/
- background:#E3ECF6;	
+ background: #E0E6F3 !important;	
 }
 .gridAndOptions .calendarGrid td.today,
 .gridAndOptions .calendarGrid td.today,
@@ -1484,10 +1633,15 @@ border: 0;
  color:#333;	
  text-decoration:none;	
 }
-.news .hfeed article {
+.news .hfeed article,
+.content-tertiary .news ul.posts li { 
  margin:0 0 1.5em;
 }
-.news .hfeed article h1 {
+.content-tertiary .news ul.posts {
+ margin: 0 0 1.5em; !important
+}
+.news .hfeed article h1,
+.content-tertiary .news ul.posts li.post h4 a {
  color:#003580;
  font-size:1em;
  line-height:1.5em;
@@ -1569,6 +1723,16 @@ border: 0;
 */
 .container-events-news-and-spotlight .spotlight div.relatedPub div.moduleNav ul li {
  margin:0;
+}
+
+.content-tertiary .publication .moduleNav ul li h4 a {
+ text-decoration: none;
+ color: #003580;
+ font-size: 0.90em;
+ line-height: 1.5em;
+}
+.content-tertiary .publication .moduleNav ul li {
+ border-top: 0;
 }
 
 .content-tertiary .spotlight article {
@@ -1998,6 +2162,18 @@ footer.site-info .luther-sports-logos img {
   padding:3px;
   margin:0;
 }
+.style-home-00 #av .video.fullsize {
+  margin: 15px 0 0 20px;
+}
+.style-home-00 #av .video.fullsize iframe,
+.style-home-00 #av .video.fullsize embed {
+  border-left: 7px solid #95B3CD;
+  border-right: 7px solid #95B3CD;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0;
+}
+
 .content section.events nav.button hr,
 .content-tertiary hr,
 #av hr {
@@ -2193,7 +2369,8 @@ body.dada .content-primary img {
 /* \\\ Emergency message /// */
 
 /* /// Feature/feature \\\ */
-.style-home-01 .featuresModule {
+.style-home-01 .featuresModule,
+.style-home-00 .featuresModule {
  overflow: hidden;
 }
 .content-tertiary .featuresModule li.feature {
@@ -2208,7 +2385,8 @@ body.dada .content-primary img {
  width:100%;
  height: auto;
 }
-.style-home-01 .featuresModule .feature .featureInfo h3.featureTitle {
+.style-home-01 .featuresModule .feature .featureInfo h3.featureTitle, 
+.style-home-00 .featuresModule .feature .featureInfo h3.featureTitle {
  width: 97%; 
  font-size: 1.3em;
  font-weight: bold;
@@ -2223,7 +2401,8 @@ body.dada .content-primary img {
  color:#eeeeee;
  line-height:1;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureText {
+.style-home-01 .featuresModule .feature .featureInfo .featureText, 
+.style-home-00 .featuresModule .feature .featureInfo .featureText {
  width: 97%;
  font-size: 1.1em;
  color:#cccccc;
@@ -2245,7 +2424,13 @@ body.dada .content-primary img {
 .style-home-01 .featuresModule .feature .featureTitle span.noLink,
 .style-home-01 .featuresModule .feature .featureText a.dest,
 .style-home-01 .featuresModule .feature .featureText a.anchor,
-.style-home-01 .featuresModule .feature .featureText span.noLink {
+.style-home-01 .featuresModule .feature .featureText span.noLink, 
+.style-home-00 .featuresModule .feature .featureTitle a.dest,
+.style-home-00 .featuresModule .feature .featureTitle a.anchor,
+.style-home-00 .featuresModule .feature .featureTitle span.noLink,
+.style-home-00 .featuresModule .feature .featureText a.dest,
+.style-home-00 .featuresModule .feature .featureText a.anchor,
+.style-home-00 .featuresModule .feature .featureText span.noLink {
     display: block;
     padding: 1px 3px 0 4px !important;
 }
@@ -2258,7 +2443,8 @@ body.dada .content-primary img {
     display: block;
     padding: 3px 3px 0 !important;
 }
-.style-home-01 .feature .featureInfo .featureNav .play-pause {
+.style-home-01 .feature .featureInfo .featureNav .play-pause, 
+.style-home-00 .feature .featureInfo .featureNav .play-pause {
  position: absolute;
  line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
@@ -2269,7 +2455,8 @@ body.dada .content-primary img {
  line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureNav a {
+.style-home-01 .featuresModule .feature .featureInfo .featureNav a, 
+.style-home-00 .featuresModule .feature .featureInfo .featureNav a {
  font-size: 1.2em;
  color:#aaaaaa;
  letter-spacing: -1px;
@@ -2279,29 +2466,29 @@ body.dada .content-primary img {
  color:#aaaaaa;
  letter-spacing: -1px;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock {
+.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock, 
+.style-home-00 .featuresModule .feature .featureInfo .featureNav .navBlock {
  position: absolute;
- line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
  right: 5px;
- bottom: 270px;
+ bottom: 265px;
 }
 .content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock {
  position: absolute;
- line-height:0.5;
  padding: 0.15em 0.15em 0.35em 0;
  right: 3px;
  bottom: 133px;
 }
-.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock a {
+.style-home-01 .featuresModule .feature .featureInfo .featureNav .navBlock a, 
+.style-home-00 .featuresModule .feature .featureInfo .featureNav .navBlock a {
  font-size: 2.0em;
  color:#aaaaaa;
- letter-spacing: -7px;
+ margin-left: 0;
 }
 .content-tertiary .featuresModule .feature .featureInfo .featureNav .navBlock a {
  font-size: 1.3em;
  color:#aaaaaa;
- letter-spacing: -5px;
+ margin-left: 0;
 }
 .featuresModule .feature .featureInfo .featureNav .navBlock a.current.navItem {
  color:#afd0ef;
@@ -2331,15 +2518,15 @@ img.athlete_image {
 img.video_streaming,
 img.audio_streaming {
  float:right;
- width: 14px;
  height: 14px;
+ width: 14px;
  display: inline;
  padding: 0 1px 0 1px;
 }
 .eventDetails img.video_streaming,
 .eventDetails img.audio_streaming {
- width: 18px;
  height: 18px;
+ width: 18px;
 }
 
 /* \\\ Cluetip athlete tooltip /// */
