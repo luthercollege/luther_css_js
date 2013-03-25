@@ -1170,6 +1170,20 @@ body.sports .contact-information p {
 /* \\\ Blog Feed /// */
 
 
+/* \\\ Loki Inline Editing /// */
+.editable .editing{
+    margin: 0px;
+    width: 100%;
+}
+.editable .words{
+    width: 0px;
+}
+.editable .element{
+    padding: 0px;
+}
+.loki img{
+    display: inline;
+}
 
 
 /* /// Events \\\ */
