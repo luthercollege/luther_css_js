@@ -1333,7 +1333,7 @@ nav.button a:focus {
  border: 0;
  margin: 0 0 0 .333333em;
 }
-.style-two-columns div#calendar .eventDetails table {
+.style-two-columns .eventDetails table {
  margin: 0 0 1.5em 0;
  font-size: 1.2em;
 }
@@ -1359,7 +1359,8 @@ nav.button a:focus {
 }
 .style-two-columns .eventDetails p.sponsor a,
 .style-two-columns .eventDetails p.contact a,
-.style-two-columns .eventDetails p.eventUrl a {
+.style-two-columns .eventDetails p.eventUrl a, 
+.style-two-columns .eventDetails tr td a {
  text-decoration: none; 
 }
 .style-two-columns .eventDetails p.sponsor strong,
