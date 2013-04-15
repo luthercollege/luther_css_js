@@ -1655,8 +1655,9 @@ border: 0;
 .content-tertiary .news ul.posts {
  margin: 0 0 1.5em; !important
 }
+#meat #content .relatedPub ul.posts li.post h4, 
 .content-tertiary .news .relatedPub ul.posts li.post h4 {
- width: 100%;
+ width: 100% !important;
 }
 .news .hfeed article h1,
 .content-tertiary .news ul.posts li.post h4 a {
