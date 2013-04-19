@@ -1327,13 +1327,13 @@ nav.button a:focus {
  background-color: #f4f6f9;
 }
 .style-one-column div#events .dayblock li.event table,
-.style-one-column div#events .ongoingblock li.event table,
-.style-two-columns div#calendar .eventDetails table {
+.style-one-column div#events .ongoingblock li.event table {
  background: inherit;
  border: 0;
  margin: 0 0 0 .333333em;
 }
-.style-two-columns .eventDetails table {
+.style-two-columns div#calendar .eventDetails table, 
+.style-two-columns.sports .eventDetails table {
  margin: 0 0 1.5em 0;
  font-size: 1.2em;
 }
