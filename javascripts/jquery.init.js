@@ -248,7 +248,8 @@ $(document).ready(function() {
 				$sections
 				 .each(
 					   function(i) {
-							if(($(this).position().top)>=targetHeight) {
+							if(($(this).position().top)>=targetHeight
+							|| ($sections.length == 2 && i == 1)) {
 								$rightColumn.append($sections.slice(i));
 								return false;
 							}
