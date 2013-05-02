@@ -1028,6 +1028,10 @@ header.red-stripe > h1 {
  padding:0;
  text-transform:uppercase;
 }
+.two-column div.section header.red-stripe > h1 {
+ height:1em;
+ line-height:1em;
+}
 header.red-stripe > h1 > span {
  background:#fff;
  padding:0 5px 0 0;
@@ -1046,11 +1050,13 @@ header.red-stripe > h1 > span {
 
 
 /* // Blue Strip Header \\ */
-header.blue-stripe {
+header.blue-stripe, 
+.two-column div.section header.blue-stripe {
  padding:.916666em 0;
 }
 
-header.blue-stripe > h1 {
+header.blue-stripe > h1,
+.two-column div.section header.blue-stripe > h1 {
  background:#99b7ce;
  color:#004788;
  font-size:1.166666em; /* 14px */
@@ -1061,7 +1067,8 @@ header.blue-stripe > h1 {
  padding:0;
  text-transform:uppercase;
 }
-header.blue-stripe > h1 > span {
+header.blue-stripe > h1 > span, 
+.two-column div.section header.blue-stripe > h1 > span {
  background:#fff;
  padding:0 5px 0 0;
 }
@@ -1977,13 +1984,17 @@ body.sports #section-sign.blue h2 {
 
 /* // DIVs for Columns Created by jQuery \\ */
 #pageContent .two-column div.section ul, 
-#pageContent .two-column div.section ul li {
+#pageContent .two-column div.section ul li, 
+.content.content-primary .main-blurb .two-column div.section ul,
+.content.content-primary .main-blurb .two-column div.section ul li {
  list-style:none;
 }
-#pageContent .two-column ul {
+#pageContent .two-column ul, 
+.content.content-primary .main-blurb .two-column div.section ul {
  margin:0;	
 }
-#pageContent .two-column li {
+#pageContent .two-column li, 
+.content.content-primary .main-blurb .two-column div.section li {
  margin:0 0 0.75em;	
 }
 .two-column div.section {
