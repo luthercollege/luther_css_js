@@ -2396,6 +2396,29 @@ body.dada .content-primary img {
 }
 /* \\\ Emergency message /// */
 
+/* /// callout box \\\ */
+.callout {
+ background-color: #F4F6F9;
+ border: 1px solid #c2c4c7;
+ border-radius: 6px 6px 6px 6px;
+ margin: 20px 0 20px 0;
+ padding: 0;
+ padding: 14px 14px 0px 14px;
+}
+.callout.callout-success {
+ background-color: #DFF0D8;
+ border-color: #86b887;
+}
+.callout.callout-danger {
+ background-color: #F8DEDE;
+ border-color: #C98A88; 
+}
+.callout.callout-warning {
+ background-color: #FCF8E3;
+ border-color: #EFD750;
+}
+/* \\\ callout box /// */
+
 /* /// Feature/feature \\\ */
 .style-home-01 .featuresModule,
 .style-home-00 .featuresModule {

@@ -243,10 +243,10 @@ $(document).ready(function() {
 									.insertAfter($leftColumn),
 					$sections = $leftColumn
 								 .find('> div.section'),
-					targetHeight = $leftColumn
+					$targetHeight = $leftColumn
 									.height() / 2 + $sections.position().top;
 					$sections.each(function(i) {
-						if(($(this).position().top)>=targetHeight
+						if(($(this).position().top) >= $targetHeight
 						|| ($sections.length == 2 && i == 1)) {
 							$rightColumn.append($sections.slice(i));
 							return false;
