@@ -2109,8 +2109,6 @@ aside.quote ul {
 /* /// Tab Widget \\\ */
 /* Overrides "smoothness" jquery theme */
 .ui-widget-header {
- background: #E0E6F3 !important;
- background: #2561A8 !important;
  background: #99B7CE !important;
 border: 1px solid #99b7ce !important;
 }
@@ -2125,7 +2123,7 @@ border: 1px solid #99b7ce !important;
  background: #ffffff !important;
 }
 .ui-tabs .ui-tabs-nav li a {
- padding: 0.3em 1.0em !important;
+ padding: 0.35em 0.75em !important;
 }
 /* \\\ Footer /// */
 
