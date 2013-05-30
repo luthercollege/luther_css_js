@@ -113,11 +113,13 @@ body.sports {
  line-height:1.6875em;
  margin:1.333333em 0 1.6875em;
 }
-.style-home-01 .content-primary .first-p-unaltered p:first-of-type {
+.style-home-01 .content-primary .first-p-unaltered p:first-of-type,
+.style-home-01 .content-primary div#tabs p:first-of-type {
  font-size:inherit;
  line-height:inherit;
  margin:1.5em 0 1.5em;
 }
+
 .content hr {
  background:#ddd;
  color:#ddd;
@@ -2108,9 +2110,12 @@ aside.quote ul {
 
 /* /// Tab Widget \\\ */
 /* Overrides "smoothness" jquery theme */
+.ui-tabs {
+ margin: 25px 0 20px 0 !important;
+}
 .ui-widget-header {
  background: #99B7CE !important;
-border: 1px solid #99b7ce !important;
+ border: 1px solid #99b7ce !important;
 }
 .ui-tabs .ui-tabs-nav li {
  margin: 0 !important;
@@ -2125,7 +2130,7 @@ border: 1px solid #99b7ce !important;
 .ui-tabs .ui-tabs-nav li a {
  padding: 0.35em 0.75em !important;
 }
-/* \\\ Footer /// */
+/* \\\ Tab Widget /// */
 
 /* /// Footer \\\ */
 #footer {
