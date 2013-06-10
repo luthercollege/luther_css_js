@@ -2763,17 +2763,3 @@ body.admissions .call-to-action li:nth-of-type(4n+4) a:hover {
  background-color: #99B7CE;
 }
 
-/* google maps */
-/* delete when maps css is added to reason_package/reason_4.0/www/modules */ 
-#map_canvas {
- width: 100%;
- /* if defined, height will override aspect ratio in google_api_settings */
- /* height: 345px; */
-}
-#map_from {
- width: 58%;
-}
-#map_reset {
- float: right;
- margin-top: 2px;
-}
