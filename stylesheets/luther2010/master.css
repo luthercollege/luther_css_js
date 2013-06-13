@@ -2699,7 +2699,7 @@ body.admissions #section-sign.blue h2 {
 body.admissions .content-tertiary {
  padding: 1.6666em 0 0 14px;
 }
-body.admissions .call-to-action-with-images li {
+.call-to-action-with-images li {
  margin: 0 0 1px 0;
 }
 body.admissions .call-to-action ul {
