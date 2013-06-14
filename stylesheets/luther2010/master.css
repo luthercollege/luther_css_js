@@ -104,7 +104,9 @@ body.sports {
 .content dl li dl,
 .content dd li dd,
 .content ol li ol,
-.content ul li ul{
+.content ul li ul,
+.content ul li ol,
+.content ol li ul {
  margin:0 0 0.25em;
 }
 
@@ -183,91 +185,29 @@ body.sports {
 }
 
 #pageContent ul,
-#pageContent ul > li, 
 .content.content-primary .main-blurb ul,
-.content.content-primary .main-blurb ul > li, 
 #blog.publication .fullPost ul,
-#blog.publication .fullPost ul > li, 
 .contentMain #blogDescription ul,
-.contentMain #blogDescription ul > li {
- list-style:disc outside;
-}
 #pageContent ol,
-#pageContent ol > li,
 .content.content-primary .main-blurb ol,
-.content.content-primary .main-blurb ol > li,
 #blog.publication .fullPost ol,
-#blog.publication .fullPost ol > li,
-.contentMain #blogDescription ol,
-.contentMain #blogDescription ol > li {
- list-style:decimal outside;
-}
-#pageContent li,
-.content.content-primary .main-blurb li,
-ul.childrenList li, 
-#blog.publication .fullPost li,
-.contentMain #blogDescription li {
- margin-left:2.5em;
-}
-ul.childrenList li h4 a {
- text-decoration:none;
- font-size: 0.94em;
-}
-#pageContent li > ul > li > ol,
-.content.content-primary .main-blurb li > ul > li > ol,
-#blog.publication .fullPost li > ul > li > ol, 
-.contentMain #blogDescription li > ul > li > ol {
- margin-left:2.5em;
-}
-#pageContent li > ol,
-.content.content-primary .main-blurb li > ol,
-#blog.publication .fullPost li > ol, 
-.contentMain #blogDescription li > ol {
- margin-top:0;
- margin-left:-0.5em;
-}
-#pageContent ol > li > ul,
-#pageContent ul > li > ol,
-.content.content-primary .main-blurb ol > li > ul,
-.content.content-primary .main-blurb ul > li > ol,
-#blog.publication .fullPost ol > li > ul,
-#blog.publication .fullPost ul > li > ul, 
-.contentMain #blogDescription ol > li > ul,
-.contentMain #blogDescription ul > li > ul {
- margin-top: 0;
- margin-left:-0.5em;
- margin-bottom: 0;
+.contentMain #blogDescription ol {
+ margin-left:25px;
+ list-style-position: inside;
 }
 #pageContent ul,
-#pageContent ol,
 .content.content-primary .main-blurb ul,
-.content.content-primary .main-blurb ol,
 #blog.publication .fullPost ul,
+.contentMain #blogDescription ul {
+ list-style-type: disc;
+}
+#pageContent ol,
+.content.content-primary .main-blurb ol,
 #blog.publication .fullPost ol,
-.contentMain #blogDescription ul,
 .contentMain #blogDescription ol {
- /*margin-top: -1.0em;*/
+ list-style-type:decimal;
 }
-#pageContent ul.with-space li,
-#pageContent ol.with-space li,
-.content.content-primary .main-blurb ul.with-space li,
-.content.content-primary .main-blurb ol.with-space li,
-#blog.publication .fullPost ul.with-space li,
-#blog.publication .fullPost ol.with-space li,
-.contentMain #blogDescription ul.with-space li,
-.contentMain #blogDescription ol.with-space li {
- margin-bottom: 1.0em;
-}
-#pageContent ul.with-space li:first-of-type,
-#pageContent ol.with-space li:first-of-type,
-.content.content-primary .main-blurb ul.with-space li:first-of-type,
-.content.content-primary .main-blurb ol.with-space li:first-of-type,
-#blog.publication .fullPost ul.with-space li:first-of-type,
-#blog.publication .fullPost ol.with-space li:first-of-type,
-.contentMain #blogDescription ul.with-space li:first-of-type,
-.contentMain #blogDescription ol.with-space li:first-of-type {
- margin-top: 1.0em;
-}
+
 #blog.publication .back {
  margin: 0 0 1.333333em 0;
 }
