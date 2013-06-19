@@ -2368,7 +2368,8 @@ body.dada .content-primary img {
 /* \\\ Emergency message /// */
 
 /* /// callout box \\\ */
-.callout {
+.callout, 
+.emphasis-box { 
  background-color: #F4F6F9;
  border: 1px solid #c2c4c7;
  border-radius: 6px 6px 6px 6px;
