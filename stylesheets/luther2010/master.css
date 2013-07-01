@@ -161,7 +161,9 @@ body.sports {
  font-size:1.5em;	/* 12px * 1.5em = 18px  great primer */
  font-weight:normal;
  line-height:2;
+ line-height:1.42em;
  margin:1.666666em 0 .333333em;		
+ margin:1.071428em 0 0.333333em;	
 }
 .content h4 {
  font-size:1.16666666666666em;	/* 12px * 1.75em = 14px  eng­lish or augustin */
