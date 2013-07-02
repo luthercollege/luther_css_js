@@ -1632,16 +1632,6 @@ border: 0;
 
 
 /* // Twitter \\ */
-.content-tertiary .twitter-feed h1 {
- font-size:1.166666em; /* 14px */
- font-weight:bold;
-//line-height:1.285714em;
- margin:0.642857em 0;
- text-transform:uppercase;
-}
-.content-tertiary .twitter-feed {
- //padding:0 10px 0 0;
-}
 .twitter-feed {
 
 }
@@ -1650,30 +1640,38 @@ border: 0;
 .twitter-feed a:hover,
 .twitter-feed a:active,
 .twitter-feed a:focus {
- color:#003580;	
+ color:#003580; 
  text-decoration:none;
 }
-.twitter-feed .hfeed {
-
-}
-.twitter-feed .hentry {
- margin:0 0 1.5em;	 
-
-}
-.twitter-feed .author {
-
-}
-.twitter-feed .author figure {
- display:none;	
-}
-.twitter-feed .screen-name {
- color:#003580;	
+.twitter-feed h3{
+ color:#003580; 
  font-weight:bold;
+ margin: 0em;
 }
-.twitter-feed footer {
- color:#666;
+.twitter-feed p{
+    margin-bottom: .5em;
+    font-size: larger;
 }
-
+.twitter-feed > ul{
+    
+}
+.twitter-feed > ul > li{
+    padding-bottom: 1.25em;
+    padding-left: .5em;
+    padding-right: .5em;
+    background:white;
+}
+.twitter-feed >ul > li:nth-child(odd) {
+    padding-bottom: 1.25em;
+    padding-left: .5em;
+    padding-right: .5em;
+    background-color: #fff; 
+}   
+.twitter-feed > ul > li >span.date{
+    display: block;
+    margin-left: 1em;
+    font-size: smaller;
+}
 /* \\ Twitter // */
 
 
