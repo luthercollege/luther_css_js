@@ -2751,3 +2751,28 @@ body.admissions .content-tertiary {
  background-color: #99B7CE;
 }
 
+.policy li {
+ list-style-type: none;
+}
+.policy .accordion h4 {
+ background-color: #6F6949;
+ color: #FBF7E4;
+ cursor: pointer;
+ outline: medium none;
+ padding: 4px 4px 4px 6px;
+ background: #AFD0EF;
+ color: #003388;
+}
+.policy .accordion h4:hover {
+ background-color: #7E2300;
+ background: #2561A8;
+ color: #ffffff;
+}
+.policy .accordion.openAccordion h4 {
+ background-color: #7E2300;
+ background: #2561A8;
+ color: #ffffff;
+}
+.policy .accordion.openAccordion .policyContent {
+ margin-left: 15px;
+}
