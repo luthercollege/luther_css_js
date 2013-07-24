@@ -386,6 +386,11 @@ div.feedInfo {
  padding:3em 0 0 14px;	
  width:222px;
 }
+.content-tertiary a {
+ color: #003580;
+ text-decoration: none;
+}
+
 
 /* \\\ Content /// */
 
@@ -1016,8 +1021,46 @@ header.blue-stripe > h1 > span,
  background:#fff;
  padding:0 5px 0 0;
 }
-
 /* \\ Blue Strip Header // */
+
+/* // Background Header \\ */
+div.section header > h1,
+.two-column div.section header > h1 {
+ background:#99b7ce;
+ color:#004788;
+ font-size:1.166666em; /* 14px */
+ font-weight:bold;
+ height:1em;
+ line-height:1em;
+ text-transform:uppercase;
+ margin: 0.999999em 0 0.333333em 0;
+ line-height: 1.2;
+ color: #ffffff;
+ padding: 0.18em 0 0.333333em 0.333333em;
+}
+div.section.green header > h1,
+.two-column div.section header > h1 {
+ background: #8AAB60;
+ background: #40852D;
+}
+div.section.blue header > h1,
+.two-column div.section header > h1 {
+ background: #2561A8;
+}
+div.section.gold header > h1,
+.two-column div.section header > h1 {
+ background: #ECA424;
+}
+div.section.red header > h1,
+.two-column div.section header > h1 {
+ background: #AA1111;
+}
+div.section.ltblue header > h1,
+.two-column div.section header > h1 {
+ background: #AFD0EF;
+ color: #003388;
+}
+/* \\ Background Header // */
 
 
 .style-home-00 .container-events-news-and-spotlight section.events .hfeed,
@@ -1612,6 +1655,8 @@ border: 0;
  margin: 0 0 1.5em; !important
 }
 .news .hfeed article h1,
+.content-tertiary h4, 
+.content-tertiary h4 a, 
 .content-tertiary .news ul.posts li.post h1, 
 .content-tertiary .news ul.posts li.post h1 a, 
 .content-tertiary .news ul.posts li.post h4 a {
@@ -2645,10 +2690,10 @@ body.admissions .content-tertiary {
 .call-to-action-with-images li {
  margin: 0 0 1px 0;
 }
-body.admissions .call-to-action ul {
+.call-to-action ul {
  list-style-type: none;
 }
-body.admissions .call-to-action a {
+.call-to-action a {
  display: block;
  padding: 3px 3px 3px 8px;
  color: #ffffff;
@@ -2657,27 +2702,27 @@ body.admissions .call-to-action a {
  text-decoration: none;
  border-bottom: 1px solid #ffffff; 
 }
-body.admissions .call-to-action a:hover {
+.call-to-action a:hover {
  background: #9abb70;
 }
-body.admissions .call-to-action li:nth-of-type(4n+2) a {
+.call-to-action li:nth-of-type(4n+2) a {
  background: #99b7ce;
 }
-body.admissions .call-to-action li:nth-of-type(4n+2) a:hover {
+.call-to-action li:nth-of-type(4n+2) a:hover {
  background: #A9c7de;
 }
-body.admissions .call-to-action li:nth-of-type(4n+3) a {
+.call-to-action li:nth-of-type(4n+3) a {
  background: #f2bf57;
  color: #556677;
 }
-body.admissions .call-to-action li:nth-of-type(4n+3) a:hover {
+.call-to-action li:nth-of-type(4n+3) a:hover {
  background: #f8cf67;
 }
-body.admissions .call-to-action li:nth-of-type(4n+4) a {
+.call-to-action li:nth-of-type(4n+4) a {
  background: #00458a;
  color: #f2bf57;
 }
-body.admissions .call-to-action li:nth-of-type(4n+4) a:hover {
+.call-to-action li:nth-of-type(4n+4) a:hover {
  background: #10559a;
 }
 
