@@ -253,8 +253,9 @@ $(document).ready(function() {
 						}
 					});
 					$('div.section > h1').each(function() {
-						$(this).wrap('<header class="red-stripe"></header>');
-						$(this.firstChild).wrap('<span></span>');
+						$(this).wrap('<header></header>');
+						//$(this).wrap('<header class="red-stripe"></header>');
+						//$(this.firstChild).wrap('<span></span>');
 					});
 				},
 		}
