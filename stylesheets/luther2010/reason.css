@@ -143,7 +143,8 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
 #meat .contentPost #blog.publication .item .fullPost .comments {
   margin: 1.0em 0 0 0;
 }
-#meat .contentPost #blog.publication .item .fullPost .author {
+#meat .contentPost #blog.publication .item .fullPost .author, 
+#meat .contentPost #blog.publication .item .fullPost .date {
   margin: 0 0 1.0em 0;
   font-style: italic;
 }
@@ -176,7 +177,7 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
 #meat .contentPost #blog.publication .moduleNav .pagination.above,
 #meat .contentPost #blog.publication .item .categories,
 #meat .contentPost #blog.publication .item .fullPost h3.postTitle,
-#meat .contentPost #blog.publication .item .fullPost .date,
+/*#meat .contentPost #blog.publication .item .fullPost .date,*/
 #footer .module1 #maintained, 
 #footer .module2 .editDiv, 
 /*#meat .contentPost #blog.publication .feedLink,*/
