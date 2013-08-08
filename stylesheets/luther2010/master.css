@@ -248,29 +248,30 @@ body.sports {
  padding: 0 !important;
  margin: 0 !important;
 }
-#blog.publication .moduleNav .section ul.posts {
+
+/*#blog.publication .moduleNav .section ul.posts {
  padding-top: 0.666666em;
  padding-bottom: 0.666666em;
-}
-#blog.publication .moduleNav .section ul.posts li.post h4 {
+}*/
+/*#blog.publication .moduleNav .section ul.posts li.post h4 {
  line-height: 0.999999em;
  font-size: 1.0em;
- margin: 0 !important;
-}
+ margin: !important;
+}*/
 #blog.publication .moduleNav .section ul.posts li.post h4 a {
  text-decoration: none;
  color: #00458A;
 }
-#blog.publication .moduleNav ul.sections li.section ul.posts {
+/*#blog.publication .moduleNav ul.sections li.section ul.posts {
  padding-left: 1em;
-}
+}*/
 #meat .contentPost #blog.publication .moduleNav ul.posts li.post h4,
-#meat .contentPost #blog.publication .moduleNav ul.posts li.post .desc {
- width: 308px;
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post .desc p{
+ margin: 0;
 }
 #meat .contentPost #blog.publication .moduleNav .section ul.posts li.post h4,
-#meat .contentPost #blog.publication .moduleNav .section ul.posts li.post .desc {
- width: 298px;
+#meat .contentPost #blog.publication .moduleNav .section ul.posts li.post .desc p{
+ margin: 0;
 }
 
 .pagination {
