@@ -1024,6 +1024,7 @@ header.blue-stripe > h1 > span,
 /* \\ Blue Strip Header // */
 
 /* // Background Header \\ */
+div.section > h1,
 div.section header > h1,
 .two-column div.section header > h1 {
  background:#99b7ce;
@@ -1038,19 +1039,24 @@ div.section header > h1,
  color: #ffffff;
  padding: 0.18em 0 0.333333em 0.333333em;
 }
+div.section.green > h1,
 div.section.green header > h1 {
  background: #8AAB60;
  background: #40852D;
 }
+div.section.blue > h1,
 div.section.blue header > h1 {
  background: #2561A8;
 }
+div.section.gold > h1 {
 div.section.gold header > h1 {
  background: #ECA424;
 }
+div.section.red > h1,
 div.section.red header > h1 {
  background: #AA1111;
 }
+div.section.ltblue > h1,
 div.section.ltblue header > h1 {
  background: #AFD0EF;
  color: #003388;
