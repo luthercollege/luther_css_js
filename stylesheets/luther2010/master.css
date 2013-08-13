@@ -1049,7 +1049,7 @@ div.section.blue > h1,
 div.section.blue header > h1 {
  background: #2561A8;
 }
-div.section.gold > h1 {
+div.section.gold > h1,
 div.section.gold header > h1 {
  background: #ECA424;
 }
