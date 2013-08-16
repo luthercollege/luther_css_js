@@ -97,10 +97,6 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
   margin-top:5px;
   margin-left:0;
 }
-#meat #content .publication ul.posts li.post .date,
-#meat #content .relatedPub ul.posts li.post .date{
-  display: none;
-}
 #meat #content .publication ul.posts li.post h4.title,
 #meat #content .publication ul.posts li.post .desc,
 #meat #content .relatedPub ul.posts li.post h4,
@@ -141,13 +137,13 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
 #meat .contentPost .relatedPub .moduleNav ul.posts li.post p:first-of-type {
   font-size: inherit;
   line-height: inherit;
-  margin: 0 0 1.5em;
+  margin: 0;
 }
 #meat .contentPost #blog.publication .moduleNav ul.posts li.post .date,
 #meat .contentPost .relatedPub .moduleNav ul.posts li.post .date {
-  /*display: none;*/
-  font-size: 0.95em;
-  margin: 0 0 0.5em 0;
+  display: none;
+  /*font-size: 0.95em;
+  margin: 0 0 0.5em 0;*/
 }
 #meat .contentPost #blog.publication .moduleNav ul.posts li.post ul.links {
   /*display: none;*/
