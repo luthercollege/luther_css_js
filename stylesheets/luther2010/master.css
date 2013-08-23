@@ -2724,6 +2724,39 @@ body.admissions .content-tertiary {
 .call-to-action li:nth-of-type(4n+4) a:hover {
  background: #10559a;
 }
+.style-home-00 .call-to-action {
+ float: right;
+ width: 235px;
+}
+.style-home-00 .call-to-action li {
+ background:#004789 url(/images/luther2010/backgrounds/nav-content-gradient-background.png) repeat-x;	
+ background-image:-moz-linear-gradient(0 45% 90deg, #004789, #2561A8); /* FF3.6 */
+ background-image:-webkit-gradient(linear,0 0,0 45%, from(#2561A8), to(#004789)); /* Saf4+, Chrome */
+}
+.style-home-00 .call-to-action li a:before {
+  content: url(/images/luther2010/virtual-tour.png); 
+  padding: 0 10px 0 15px;
+  position: relative;
+  top: 18px;
+}
+.style-home-00 .call-to-action li:nth-of-type(3n+2) a:before {
+  content: url(/images/luther2010/visit-campus.png); 
+}
+.style-home-00 .call-to-action li:nth-of-type(3n+3) a:before {
+  content: url(/images/luther2010/apply-now.png); 
+}
+.style-home-00 .call-to-action li a {
+ font-size: 1.75em;
+ color: #FFD700;
+ border-bottom: 0;
+ background: transparent;
+ line-height: 90px;
+}
+.style-home-00 .call-to-action li a:hover {
+ background:#044B8F url(/images/luther2010/backgrounds/nav-content-gradient-background.png) repeat-x;	
+ background-image:-moz-linear-gradient(0 45% 90deg, #044B8F, #3071B8); /* FF3.6 */
+ background-image:-webkit-gradient(linear,0 0,0 45%, from(#3071B8), to(#044B8F)); /* Saf4+, Chrome */
+}
 
 /* a to z index */
 .contentPost #atoz > ul > li > ul {
