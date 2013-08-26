@@ -195,7 +195,17 @@ body.sports {
 #blog.publication .fullPost ol,
 .contentMain #blogDescription ol {
  margin-left:25px;
- list-style-position: inside;
+ list-style-position: outside;
+}
+#pageContent > ul,
+.content.content-primary .main-blurb > ul,
+#blog.publication .fullPost > ul,
+.contentMain #blogDescription > ul,
+#pageContent > ol,
+.content.content-primary .main-blurb > ol,
+#blog.publication .fullPost > ol,
+.contentMain #blogDescription > ol {
+ margin-left:40px;
 }
 #pageContent ul,
 .content.content-primary .main-blurb ul,
