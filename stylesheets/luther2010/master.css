@@ -121,9 +121,9 @@ body.sports {
  line-height:inherit;
  margin:1.5em 0 1.5em;
 }
-.sytle-home-01 .content-primary .callout .first-p-unaltered p:first-of-type,
-.sytle-home-01 .content-primary .first-p-unaltered .callout p:first-of-type {
- margin 0 0 1.5em;
+.style-home-01 .content-primary .callout.first-p-unaltered p:first-of-type, 
+.style-home-01 .content-primary .first-p-unaltered.callout p:first-of-type {
+ margin: 0 0 1.5em;
 }
 
 .content hr {
