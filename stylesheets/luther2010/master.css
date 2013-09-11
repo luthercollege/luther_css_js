@@ -116,6 +116,7 @@ body.sports {
  margin:1.333333em 0 1.6875em;
 }
 .style-home-01 .content-primary .first-p-unaltered p:first-of-type,
+.style-home-01 .content-primary .fullPost p:first-of-type,
 .style-home-01 .content-primary div#tabs p:first-of-type {
  font-size:inherit;
  line-height:inherit;
@@ -2824,7 +2825,7 @@ body.admissions .content-tertiary {
 }
 
 div.socialProfileLinks {
-  width: 233px;
+  width: 234px;
   height: 42px;
   background-color: #40852D;
   background-color: #cccccc;
