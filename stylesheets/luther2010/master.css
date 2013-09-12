@@ -195,10 +195,12 @@ body.sports {
 .content.content-primary .main-blurb ul,
 #blog.publication .fullPost ul,
 .contentMain #blogDescription ul,
+#pageContent .policy .accordion.openAccordion ul, 
 #pageContent ol,
 .content.content-primary .main-blurb ol,
 #blog.publication .fullPost ol,
-.contentMain #blogDescription ol {
+.contentMain #blogDescription ol, 
+#pageContent .policy .accordion.openAccordion ol {
  margin-left:25px;
  list-style-position: outside;
 }
@@ -206,22 +208,26 @@ body.sports {
 .content.content-primary .main-blurb > ul,
 #blog.publication .fullPost > ul,
 .contentMain #blogDescription > ul,
+#pageContent .policy .accordion.openAccordion > ul, 
 #pageContent > ol,
 .content.content-primary .main-blurb > ol,
 #blog.publication .fullPost > ol,
-.contentMain #blogDescription > ol {
+.contentMain #blogDescription > ol, 
+#pageContent .policy .accordion.openAccordion > ol {
  margin-left:40px;
 }
 #pageContent ul,
 .content.content-primary .main-blurb ul,
 #blog.publication .fullPost ul,
-.contentMain #blogDescription ul {
+.contentMain #blogDescription ul, 
+#pageContent .policy .accordion.openAccordion ul {
  list-style-type: disc;
 }
 #pageContent ol,
 .content.content-primary .main-blurb ol,
 #blog.publication .fullPost ol,
-.contentMain #blogDescription ol {
+.contentMain #blogDescription ol, 
+#pageContent .policy .accordion.openAccordion ol {
  list-style-type:decimal;
 }
 
