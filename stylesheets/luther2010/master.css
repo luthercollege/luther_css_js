@@ -195,12 +195,12 @@ body.sports {
 .content.content-primary .main-blurb ul,
 #blog.publication .fullPost ul,
 .contentMain #blogDescription ul,
-.content.content-primary ol li .accordion.openAccordion ul, 
+.content.content-primary ol li .accordion.openAccordion .policyContent ul, 
 #pageContent ol,
 .content.content-primary .main-blurb ol,
 #blog.publication .fullPost ol,
 .contentMain #blogDescription ol, 
-.content.content-primary ol li .accordion.openAccordion ol {
+.content.content-primary ol li .accordion.openAccordion .policyContent ol {
  margin-left:25px;
  list-style-position: outside;
 }
@@ -208,26 +208,26 @@ body.sports {
 .content.content-primary .main-blurb > ul,
 #blog.publication .fullPost > ul,
 .contentMain #blogDescription > ul,
-.content.content-primary ol li .accordion.openAccordion > ul, 
+.content.content-primary ol li .accordion.openAccordion .policyContent > ul, 
 #pageContent > ol,
 .content.content-primary .main-blurb > ol,
 #blog.publication .fullPost > ol,
 .contentMain #blogDescription > ol, 
-.content.content-primary ol li .accordion.openAccordion > ol {
+.content.content-primary ol li .accordion.openAccordion .policyContent > ol {
  margin-left:40px;
 }
 #pageContent ul,
 .content.content-primary .main-blurb ul,
 #blog.publication .fullPost ul,
 .contentMain #blogDescription ul, 
-.content.content-primary ol li .accordion.openAccordion ul {
+.content.content-primary ol li .accordion.openAccordion .policyContent ul {
  list-style-type: disc;
 }
 #pageContent ol,
 .content.content-primary .main-blurb ol,
 #blog.publication .fullPost ol,
 .contentMain #blogDescription ol, 
-.content.content-primary ol li .accordion.openAccordion ol {
+.content.content-primary ol li .accordion.openAccordion .policyContent ol {
  list-style-type:decimal;
 }
 
@@ -2805,7 +2805,7 @@ body.admissions .content-tertiary {
 }
 
 .policy ol.decimal {
- list-style-type: none;
+ list-style-type: none !important;
 }
 .policy .accordion h4 {
  background-color: #6F6949;
