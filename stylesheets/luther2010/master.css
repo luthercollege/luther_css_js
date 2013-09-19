@@ -2849,20 +2849,20 @@ div.socialProfileLinks img {
   padding: 5px 0 0 5px;
 }
 
-#nav-section.show-icon li.navListitem.facebook,
-#nav-section.show-icon li.navListitem.twitter,
-#nav-section.show-icon li.navListitem.youtube,
-#nav-section.show-icon li.navListitem.googleplus,
-#nav-section.show-icon li.navListitem.instagram,
-#nav-section.show-icon li.navListitem.linkedin {
+#nav-section.show-icon li.navListItem.facebook,
+#nav-section.show-icon li.navListItem.twitter,
+#nav-section.show-icon li.navListItem.youtube,
+#nav-section.show-icon li.navListItem.googleplus,
+#nav-section.show-icon li.navListItem.instagram,
+#nav-section.show-icon li.navListItem.linkedin {
   height: 18px;
 }
-#nav-section.show-icon li.navListitem.facebook a:before, 
-#nav-section.show-icon li.navListitem.twitter a:before, 
-#nav-section.show-icon li.navListitem.youtube a:before, 
-#nav-section.show-icon li.navListitem.googleplus a:before, 
-#nav-section.show-icon li.navListitem.instagram a:before, 
-#nav-section.show-icon li.navListitem.linkedin a:before {
+#nav-section.show-icon li.navListItem.facebook a:before, 
+#nav-section.show-icon li.navListItem.twitter a:before, 
+#nav-section.show-icon li.navListItem.youtube a:before, 
+#nav-section.show-icon li.navListItem.googleplus a:before, 
+#nav-section.show-icon li.navListItem.instagram a:before, 
+#nav-section.show-icon li.navListItem.linkedin a:before {
   display: inline-block;
   height: 22px;
   width: 22px;
@@ -2874,27 +2874,27 @@ div.socialProfileLinks img {
   border-right: 3px solid transparent;
 }
 
-#nav-section.show-icon li.navListitem.facebook a:before {
+#nav-section.show-icon li.navListItem.facebook a:before {
   background: url(/images/facebook_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListitem.twitter a:before {
+#nav-section.show-icon li.navListItem.twitter a:before {
   background: url(/images/twitter_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListitem.youtube a:before {
+#nav-section.show-icon li.navListItem.youtube a:before {
   background: url(/images/youtube_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListitem.googleplus a:before {
+#nav-section.show-icon li.navListItem.googleplus a:before {
   background: url(/images/googleplus_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListitem.instagram a:before {
+#nav-section.show-icon li.navListItem.instagram a:before {
   background: url(/images/instagram_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListitem.linkedin a:before {
+#nav-section.show-icon li.navListItem.linkedin a:before {
   background: url(/images/linkedin_32.png) no-repeat 0 0;
   background-size: 100%;
 }
