@@ -2848,3 +2848,53 @@ div.socialProfileLinks img {
   margin: 0;
   padding: 5px 0 0 5px;
 }
+
+#nav-section.show-icon li.navListitem.facebook,
+#nav-section.show-icon li.navListitem.twitter,
+#nav-section.show-icon li.navListitem.youtube,
+#nav-section.show-icon li.navListitem.googleplus,
+#nav-section.show-icon li.navListitem.instagram,
+#nav-section.show-icon li.navListitem.linkedin {
+  height: 18px;
+}
+#nav-section.show-icon li.navListitem.facebook a:before, 
+#nav-section.show-icon li.navListitem.twitter a:before, 
+#nav-section.show-icon li.navListitem.youtube a:before, 
+#nav-section.show-icon li.navListitem.googleplus a:before, 
+#nav-section.show-icon li.navListitem.instagram a:before, 
+#nav-section.show-icon li.navListitem.linkedin a:before {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  content: "";
+  vertical-align: text-top;
+  position: relative;
+  top: -5px;
+  left: -2px;
+  border-right: 3px solid transparent;
+}
+
+#nav-section.show-icon li.navListitem.facebook a:before {
+  background: url(/images/facebook_32.png) no-repeat 0 0;
+  background-size: 100%;
+}
+#nav-section.show-icon li.navListitem.twitter a:before {
+  background: url(/images/twitter_32.png) no-repeat 0 0;
+  background-size: 100%;
+}
+#nav-section.show-icon li.navListitem.youtube a:before {
+  background: url(/images/youtube_32.png) no-repeat 0 0;
+  background-size: 100%;
+}
+#nav-section.show-icon li.navListitem.googleplus a:before {
+  background: url(/images/googleplus_32.png) no-repeat 0 0;
+  background-size: 100%;
+}
+#nav-section.show-icon li.navListitem.instagram a:before {
+  background: url(/images/instagram_32.png) no-repeat 0 0;
+  background-size: 100%;
+}
+#nav-section.show-icon li.navListitem.linkedin a:before {
+  background: url(/images/linkedin_32.png) no-repeat 0 0;
+  background-size: 100%;
+}
