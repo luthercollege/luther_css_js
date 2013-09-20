@@ -2862,7 +2862,13 @@ div.socialProfileLinks img {
 #nav-section.show-icon li.navListItem.youtube a:before, 
 #nav-section.show-icon li.navListItem.googleplus a:before, 
 #nav-section.show-icon li.navListItem.instagram a:before, 
-#nav-section.show-icon li.navListItem.linkedin a:before {
+#nav-section.show-icon li.navListItem.linkedin a:before, 
+#nav-section.show-icon li.navListItem.facebook strong:before, 
+#nav-section.show-icon li.navListItem.twitter strong:before, 
+#nav-section.show-icon li.navListItem.youtube strong:before, 
+#nav-section.show-icon li.navListItem.googleplus strong:before, 
+#nav-section.show-icon li.navListItem.instagram strong:before, 
+#nav-section.show-icon li.navListItem.linkedin strong:before {
   display: inline-block;
   height: 22px;
   width: 22px;
@@ -2874,27 +2880,33 @@ div.socialProfileLinks img {
   border-right: 3px solid transparent;
 }
 
-#nav-section.show-icon li.navListItem.facebook a:before {
+#nav-section.show-icon li.navListItem.facebook a:before, 
+#nav-section.show-icon li.navListItem.facebook strong:before {
   background: url(/images/facebook_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListItem.twitter a:before {
+#nav-section.show-icon li.navListItem.twitter a:before, 
+#nav-section.show-icon li.navListItem.twitter strong:before {
   background: url(/images/twitter_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListItem.youtube a:before {
+#nav-section.show-icon li.navListItem.youtube a:before, 
+#nav-section.show-icon li.navListItem.youtube strong:before {
   background: url(/images/youtube_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListItem.googleplus a:before {
+#nav-section.show-icon li.navListItem.googleplus a:before, 
+#nav-section.show-icon li.navListItem.googleplus strong:before {
   background: url(/images/googleplus_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListItem.instagram a:before {
+#nav-section.show-icon li.navListItem.instagram a:before,
+#nav-section.show-icon li.navListItem.instagram strong:before {
   background: url(/images/instagram_32.png) no-repeat 0 0;
   background-size: 100%;
 }
-#nav-section.show-icon li.navListItem.linkedin a:before {
+#nav-section.show-icon li.navListItem.linkedin a:before, 
+#nav-section.show-icon li.navListItem.linkedin strong:before {
   background: url(/images/linkedin_32.png) no-repeat 0 0;
   background-size: 100%;
 }
