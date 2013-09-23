@@ -2443,6 +2443,7 @@ body.dada .content-primary img {
  margin: 20px 0 20px 0;
  padding: 0;
  padding: 14px 14px 0px 14px;
+ display: inline-block;
 }
 .callout.callout-success {
  background-color: #DFF0D8;
@@ -2455,6 +2456,12 @@ body.dada .content-primary img {
 .callout.callout-warning {
  background-color: #FCF8E3;
  border-color: #EFD750;
+}
+.callout img {
+ padding: 3px;
+ border: 1px solid silver;
+ margin: 0 10px 18px 0;
+ float: left;
 }
 /* \\\ callout box /// */
 
