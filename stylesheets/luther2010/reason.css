@@ -289,18 +289,14 @@ div.assets a strong {
 	width: auto;
 	background: transparent;
 }
-#disco_form table div.checkBoxGroup th,
-#disco_form table div.checkBoxGroup td {
-	padding: 0 5px 1px 0;
-}
-#disco_form table div.checkBoxGroup td label {
-	position: relative;
-	top: 1px;
-}
 #disco_form .checkBoxGroup tr td:first-child,
 #disco_form .checkBoxGroup tr th:first-child {
   width: 20px;
   padding: 0.10em 0 .333333em 0.5em;
+}
+#disco_form table.thorTable .checkBoxGroup tr td:first-child,
+#disco_form table.thorTable .checkBoxGroup tr th:first-child {
+  padding: 0.10em .333333em .333333em 0.5em;
 }
 #disco_form table div.radioButtons th,
 #disco_form table div.radioButtons td {
