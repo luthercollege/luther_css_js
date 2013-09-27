@@ -252,7 +252,7 @@ div.assets a strong {
 
 /*Forms -- css for Reason/Thor generated forms -sls
 */
-#content form td, #content form th, #content form tr{
+#content form td, #content form th {
         border-style: hidden;
         border-color: transparent;
 	vertical-align: middle;
@@ -296,6 +296,11 @@ div.assets a strong {
 #disco_form table div.checkBoxGroup td label {
 	position: relative;
 	top: 1px;
+}
+#disco_form .checkBoxGroup tr td:first-child,
+#disco_form .checkBoxGroup tr th:first-child {
+  width: 20px;
+  padding: 0.10em 0 .333333em 0.5em;
 }
 #disco_form table div.radioButtons th,
 #disco_form table div.radioButtons td {
