@@ -294,6 +294,10 @@ div.assets a strong {
   width: 20px;
   padding: 0.10em 0 .333333em 0.5em;
 }
+#disco_form table.thorTable .checkBoxGroup tr td,
+#disco_form table.thorTable .checkBoxGroup tr th {
+ padding: 0;
+}
 #disco_form table.thorTable .checkBoxGroup tr td:first-child,
 #disco_form table.thorTable .checkBoxGroup tr th:first-child {
   padding: 0.10em .333333em .333333em 0.5em;
