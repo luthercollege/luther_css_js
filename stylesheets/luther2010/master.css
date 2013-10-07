@@ -117,6 +117,7 @@ body.sports {
 }
 .style-home-01 .content-primary .first-p-unaltered p:first-of-type,
 .style-home-01 .content-primary .fullPost p:first-of-type,
+.style-home-01 .content-primary div#formAdminControlBox p:first-of-type,
 .style-home-01 .content-primary div#tabs p:first-of-type {
  font-size:inherit;
  line-height:inherit;
