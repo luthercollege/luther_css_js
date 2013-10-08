@@ -671,28 +671,40 @@ input.gsc-search-button-v2:hover, input.gsc-search-button-v2:focus {
  text-align:left;
 }
 #nav-content li.academics {
- min-width:105px;	
+ min-width:115px;	
+ min-width:125px;	
 }
 #nav-content li.library-Technology {
  min-width:170px;	
 }
+#nav-content li.connect {
+ min-width:95px;	
+}
 #nav-content li.student-life {
  min-width:110px;	
+ min-width:130px;	
 }
 #nav-content li.athletics {
  min-width:85px;	
+ min-width:105px;	
 }
 #nav-content li.music {
  min-width:65px;	
+ min-width:85px;	
 }
 #nav-content li.giving {
  min-width:70px;	
+ min-width:87px;	
 }
 #nav-content li.decorah {
- min-width:85px;	
+ min-width:97px;	
 }
 #nav-content li.about-luther {
  min-width:105px;
+ text-align:right;
+}
+#nav-content li.about {
+ min-width:67px;
  text-align:right;
 }
 #nav-content li.admissions a,
