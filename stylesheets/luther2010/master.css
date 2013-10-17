@@ -2477,6 +2477,9 @@ body.dada .content-primary img {
  float: left;
  width: 85px;
 }
+.callout #disco_form {
+ padding-bottom: 0;
+}
 /* \\\ callout box /// */
 
 /* /// Feature/feature \\\ */
