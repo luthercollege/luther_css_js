@@ -1311,11 +1311,22 @@ nav.button a:focus {
  float: left;
  width: 240px;
 }
-
-
-
-
 /* /// Events \\\ */
+
+.style-landing-single-column .content-tertiary,
+.style-landing-single-column #footer {
+  display: none;
+}
+body.style-landing-single-column {
+ width: auto;
+ min-width: 480px;
+ max-width: 734px;
+}
+.style-landing-single-column .container,
+.style-landing-single-column .content-primary {
+ width: auto;
+ margin: 0;
+}
 .style-one-column .content-primary {
  padding-right:0;
  width:689px;
