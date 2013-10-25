@@ -68,6 +68,10 @@ body.sports {
  float:left;	
  width:234px; 
 }
+body.style-landing-single-column .content {
+ width: auto; 
+ float:none;	
+}
 .content strong {
  font-weight:bold;	
 }
@@ -89,6 +93,15 @@ body.sports {
 }
 .content figure#imagetopframe img {
  max-width:450px;
+}
+body.style-landing-single-column figure#imagetopframe {
+ display: block;
+ margin: 0;
+ width: auto;
+}
+body.style-landing-single-column figure#imagetopframe img {
+ height: auto;	
+ max-width:100%;
 }
 
 .content dl,
@@ -518,6 +531,16 @@ header.global #luther-logo {
  padding:0 0 1em;
  padding:0;
  width:325px;
+}
+body.style-landing-single-column header.global {
+ border-width: 0;
+ width: auto;
+ background: #2561A8;
+}
+body.style-landing-single-column header.global h1.pageTitle {
+ color: #ECA424;
+ font-size:5.4em;
+ line-height:1.0em;
 }
 /* \\\ Header /// */
 
@@ -1326,6 +1349,9 @@ body.style-landing-single-column {
 .style-landing-single-column .content-primary {
  width: auto;
  margin: 0;
+}
+.style-landing-single-column .content-primary {
+ padding: 1.5em 13px 0 14px
 }
 .style-one-column .content-primary {
  padding-right:0;
