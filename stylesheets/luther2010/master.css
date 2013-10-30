@@ -1103,6 +1103,7 @@ div.section header > h1,
 }
 body.style-landing-single-column div.section > h1 {
  font-size: 1.4em;
+ margin-top: 0;
 }
 div.section.green > h1,
 div.section.green header > h1 {
