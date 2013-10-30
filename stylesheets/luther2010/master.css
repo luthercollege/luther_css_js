@@ -140,6 +140,9 @@ body.style-landing-single-column figure#imagetopframe img {
 .style-home-01 .content-primary .first-p-unaltered.callout p:first-of-type {
  margin: 0 0 1.5em;
 }
+.style-landing-single-column {
+ font-size: 1.1em;
+}
 
 .content hr {
  background:#ddd;
@@ -541,7 +544,7 @@ body.style-landing-single-column header.global {
 }
 body.style-landing-single-column header.global h1.pageTitle {
  color: #ECA424;
- font-size:5.4em;
+ font-size:3.7em;
  line-height:1.0em;
 }
 /* \\\ Header /// */
@@ -1098,6 +1101,9 @@ div.section header > h1,
  color: #ffffff;
  padding: 0.18em 0 0.333333em 0.333333em;
 }
+body.style-landing-single-column div.section > h1 {
+ font-size: 1.4em;
+}
 div.section.green > h1,
 div.section.green header > h1 {
  background: #8AAB60;
@@ -1379,7 +1385,7 @@ div.button.orange a:focus {
 body.style-landing-single-column nav.button a, 
 body.style-landing-single-column div.button a {
  font-weight:bold;
- font-size: 1.2em;
+ font-size: 1.1em;
  float: none;
  display: inline-block;
 }
