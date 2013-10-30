@@ -1294,6 +1294,13 @@ body.sports .contact-information p {
  font-weight:normal;
 }
 
+.content.content-primary .main-blurb nav.button ul, .content.content-primary .main-blurb nav.button ol {
+ list-style: none outside none;
+ margin: 0;
+}
+.content.content-primary .main-blurb nav.button li {
+ text-align: center;
+}
 nav.button a:link,
 nav.button a:visited,
 nav.button a:hover,
@@ -1309,6 +1316,40 @@ nav.button a:focus {
  margin:0 0 1em;
  padding:0 1em;
  text-decoration:none;
+}
+nav.button.red a:link,
+nav.button.red a:visited,
+nav.button.red a:hover,
+nav.button.red a:active,
+nav.button.red a:focus {
+ background: #AA1111;
+}
+nav.button.blue a:link,
+nav.button.blue a:visited,
+nav.button.blue a:hover,
+nav.button.blue a:active,
+nav.button.blue a:focus {
+ background: #2561A8;
+}
+nav.button.green a:link,
+nav.button.green a:visited,
+nav.button.green a:hover,
+nav.button.green a:active,
+nav.button.green a:focus {
+ background: #40842D;	
+}
+nav.button.orange a:link,
+nav.button.orange a:visited,
+nav.button.orange a:hover,
+nav.button.orange a:active,
+nav.button.orange a:focus {
+ background: #FF8C00;
+}
+body.style-landing-single-column nav.button a {
+ font-weight:bold;
+ font-size: 1.2em;
+ float: none;
+ display: inline-block;
 }
 .container-events-news-and-spotlight nav.view-all {
  padding:0 12px;	
