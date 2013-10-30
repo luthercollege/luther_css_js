@@ -1296,18 +1296,27 @@ body.sports .contact-information p {
  font-weight:normal;
 }
 
-.content.content-primary .main-blurb nav.button ul, .content.content-primary .main-blurb nav.button ol {
+.content.content-primary .main-blurb nav.button ul,
+.content.content-primary .main-blurb nav.button ol, 
+.content.content-primary .main-blurb div.button ul,
+.content.content-primary .main-blurb div.button ol {
  list-style: none outside none;
  margin: 0;
 }
-.content.content-primary .main-blurb nav.button li {
+.content.content-primary .main-blurb nav.button li, 
+.content.content-primary .main-blurb div.button li {
  text-align: center;
 }
 nav.button a:link,
 nav.button a:visited,
 nav.button a:hover,
 nav.button a:active,
-nav.button a:focus {
+nav.button a:focus,
+div.button a:link,
+div.button a:visited,
+div.button a:hover,
+div.button a:active,
+div.button a:focus {
  background:#A5BBD7;
  clear:both;
  color:#fff; 
@@ -1323,31 +1332,52 @@ nav.button.red a:link,
 nav.button.red a:visited,
 nav.button.red a:hover,
 nav.button.red a:active,
-nav.button.red a:focus {
+nav.button.red a:focus, 
+div.button.red a:link,
+div.button.red a:visited,
+div.button.red a:hover,
+div.button.red a:active,
+div.button.red a:focus {
  background: #AA1111;
 }
 nav.button.blue a:link,
 nav.button.blue a:visited,
 nav.button.blue a:hover,
 nav.button.blue a:active,
-nav.button.blue a:focus {
+nav.button.blue a:focus, 
+div.button.blue a:link,
+div.button.blue a:visited,
+div.button.blue a:hover,
+div.button.blue a:active,
+div.button.blue a:focus {
  background: #2561A8;
 }
 nav.button.green a:link,
 nav.button.green a:visited,
 nav.button.green a:hover,
 nav.button.green a:active,
-nav.button.green a:focus {
+nav.button.green a:focus, 
+div.button.green a:link,
+div.button.green a:visited,
+div.button.green a:hover,
+div.button.green a:active,
+div.button.green a:focus {
  background: #40842D;	
 }
 nav.button.orange a:link,
 nav.button.orange a:visited,
 nav.button.orange a:hover,
 nav.button.orange a:active,
-nav.button.orange a:focus {
+nav.button.orange a:focus, 
+div.button.orange a:link,
+div.button.orange a:visited,
+div.button.orange a:hover,
+div.button.orange a:active,
+div.button.orange a:focus {
  background: #FF8C00;
 }
-body.style-landing-single-column nav.button a {
+body.style-landing-single-column nav.button a, 
+body.style-landing-single-column div.button a {
  font-weight:bold;
  font-size: 1.2em;
  float: none;
