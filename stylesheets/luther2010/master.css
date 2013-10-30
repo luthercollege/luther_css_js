@@ -536,6 +536,8 @@ body.style-landing-single-column header.global {
  border-width: 0;
  width: auto;
  background: #2561A8;
+ padding:18px 14px;
+ overflow: hidden;
 }
 body.style-landing-single-column header.global h1.pageTitle {
  color: #ECA424;
@@ -1383,7 +1385,8 @@ body.style-landing-single-column nav.button a {
 }
 body.style-landing-single-column {
  width: auto;
- min-width: 480px;
+ /*min-width: 480px;*/
+ min-width: 320px;
  max-width: 734px;
 }
 .style-landing-single-column .container,
