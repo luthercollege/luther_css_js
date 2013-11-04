@@ -3052,3 +3052,12 @@ div.socialProfileLinks img {
   background: url(/images/linkedin_32.png) no-repeat 0 0;
   background-size: 100%;
 }
+/* autocomplete fix on slate forms */
+.suggest {
+background: #fff;
+border: 1px solid #ccc;
+font-size: 11px;
+overflow: hidden;
+position: absolute;
+-moz-user-select: none;
+}
