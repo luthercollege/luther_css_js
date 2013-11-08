@@ -3061,3 +3061,9 @@ overflow: hidden;
 position: absolute;
 -moz-user-select: none;
 }
+
+/* social sharing icons */
+.fullPost .social img {
+ display: inline;
+ width: 22px !important;
+}
