@@ -424,14 +424,16 @@ div.feedInfo {
  padding:3em 0 0 14px;	
  width:222px;
 }
-.content-primary #pageContent img {
+.content-primary #pageContent img, 
+.content-primary .fullPost .text img {
  border: 1px solid #C0C0C0;
  float: left;
  margin: 10px 10px 10px 0;
  padding: 3px;
  max-width: 100%;
 }
-.content-primary #pageContent img.right {
+.content-primary #pageContent img.right,
+.content-primary .fullPost .text img.right {
  float: right;
  margin: 10px 0 10px 10px;
 }
