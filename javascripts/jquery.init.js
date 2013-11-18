@@ -166,6 +166,11 @@ carousel.config.$slider.append($clone);
 $(document).ready(function() {
 	carousel.init();
 	$("#search label").overlabel();
+  $(".call-to-action li").each(function(index) {
+    if ($(this).attr("class")) {
+      $(this).find("a").attr("onclick", "_gaq.push(['_trackEvent', 'call-to-action', 'click', '" + $(location).attr('pathname') + "button_" + $(this).attr("class") + "']);");
+    }
+  });
 	$(".emergency").effect("pulsate", { times:3 }, 2000);
         $("table").tablesorter();
         $("a.cluetip_athlete").cluetip({
