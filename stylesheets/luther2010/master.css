@@ -426,7 +426,7 @@ div.feedInfo {
 }
 .content-primary #pageContent img, 
 .content-primary .fullPost .text img {
- border: 1px solid #C0C0C0;
+ border: 1px solid transparent;
  float: left;
  margin: 10px 10px 10px 0;
  padding: 3px;
@@ -2601,6 +2601,8 @@ body.dada .content-primary img {
  background-color: #FCF8E3;
  border-color: #EFD750;
 }
+.content-primary #pageContent .callout img, 
+.content-primary .fullPost .text .callout img, 
 .callout img {
  padding: 3px;
  border: 1px solid silver;
