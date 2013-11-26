@@ -2936,6 +2936,60 @@ body.admissions .content-tertiary {
  background-image:-webkit-gradient(linear,0 0,0 45%, from(#3071B8), to(#044B8F)); /* Saf4+, Chrome */
 }
 
+.main-blurb [class^="cta-"] {  
+  margin-right: 12px;
+}
+[class^="cta-"] {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-transition:background .5s ease;
+  -moz-transition:background .5s ease;
+  -o-transition:background .5s ease;
+  transition:background .5s ease;
+  background-image: url("/images/cta-arrow-right.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+[class^="cta-"]:link,
+[class^="cta-"]:visited,
+[class^="cta-"]:hover {
+  color: #FFF;
+  text-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+[class^="cta-"].blue {
+  background-color: #2e7dca;
+}
+[class^="cta-"].blue:hover {
+  background-color: #206db9;
+}
+[class^="cta-"].green {
+  background-color: #84a664;
+}
+[class^="cta-"].green:hover {
+  background-color: #6d9249;
+}
+[class^="cta-"].red {
+  background-color: #b4483b;
+}
+[class^="cta-"].red:hover {
+  background-color: #9d3f34;
+}
+[class^="cta-"].gold {
+  background-color: #f1b741;
+}
+[class^="cta-"].gold:hover {
+  background-color: #daa232;
+}
+
 /* a to z index */
 .contentPost #atoz > ul > li > ul {
  padding-left: 10px;

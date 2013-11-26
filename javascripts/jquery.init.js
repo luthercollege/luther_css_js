@@ -166,9 +166,9 @@ carousel.config.$slider.append($clone);
 $(document).ready(function() {
 	carousel.init();
 	$("#search label").overlabel();
-  $(".call-to-action li").each(function(index) {
-    if ($(this).attr("class")) {
-      $(this).find("a").attr("onclick", "_gaq.push(['_trackEvent', 'call-to-action', 'click', '" + $(location).attr('pathname') + "button_" + $(this).attr("class") + "']);");
+  $("a[class^=cta-]").each(function(index) {
+    if ((label = $(this).attr("class").match(/^cta\-([A-Za-z0-9_\-]+)/)[1]) != "button") {
+      $(this).attr("onclick", "_gaq.push(['_trackEvent', 'call-to-action', 'click', '" + $(location).attr('pathname') + "button_" + label + "']);");
     }
   });
 	$(".emergency").effect("pulsate", { times:3 }, 2000);
