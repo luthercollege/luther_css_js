@@ -303,8 +303,16 @@ div.assets a strong {
   padding: 0.10em .333333em .333333em 0.5em;
 }
 #disco_form table div.radioButtons th,
-#disco_form table div.radioButtons td {
+#disco_form table div.radioButtons td,
+#disco_form div.radioButtons table th,
+#disco_form div.radioButtons table td {
 	padding: 0 5px 4px 0;
+}
+#disco_form table div.radioButtons th:first-child,
+#disco_form table div.radioButtons td:first-child, 
+#disco_form div.radioButtons table th:first-child,
+#disco_form div.radioButtons table td:first-child {
+  width: 20px;
 }
 #disco_form table div.radioButtons td label {
 	position: relative;
