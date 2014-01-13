@@ -3015,7 +3015,8 @@ body.admissions .content-tertiary {
  background-color: #99B7CE;
 }
 
-.policy ol.decimal {
+.policy ol.decimal,
+.policy ul.bullet {
  list-style-type: none !important;
 }
 .policy .accordion h4 {
@@ -3036,6 +3037,7 @@ body.admissions .content-tertiary {
  background-color: #7E2300;
  background: #2561A8;
  color: #ffffff;
+ margin-bottom: 1.2em;
 }
 .policy .accordion.openAccordion .policyContent {
  margin-left: 15px;
